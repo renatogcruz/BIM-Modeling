@@ -1,0 +1,74 @@
+Falta completar:
+
+Aula 13.4: Inserindo o parâmetro Uso HS em famílias (12/03/2020)
+
+Aula 13.5: Inserindo e classificando torneiras e misturadores (13/03/2020)
+
+Aula 13.6: Criando tabela de componentes de gabinete (13/03/2020)
+
+Aula 13.7: Criando tabela de peças hidrossanitárias (13/03/2020)
+
+(16/03/2020)
+
+Aula 14.3: Editando as Opções de Projeto para os telhados de 2 e 4 águas
+Aula 14.4: Duplicando a Opção de Projeto do telhado de 2 águas
+Aula 14.5: Criando Opções de Projeto para o layout das suítes 1 e 2
+Aula 14.6: Criando layout em arquivos linkados
+Aula 14.7: Inserindo layout com link Revit em Opções de Projeto
+
+(18/03)
+Aula 16.2: Duplicando paredes e vistas 3D de EP para AP
+[não criei a prancha AP TEC.. revera aula acima caso necessite]
+
+(25/03/2020)
+Aula 17.6: Inserindo cerâmica 3D na parede da churrasqueira e na mureta da varanda gourmet
+[não apliquei revestimento na bancada da churrasqueira pq não há bancadas, revisar aulas anteriores]
+Aula 18.3: Criando revestimentos com paredes empilhada [só assisti]
+Aula 18.4: Criando revestimentos com paredes cebola [só assisti]
+
+(26/03/2020)
+Aula 18.6: Criando diferentes revestimentos com a ferramenta PEÇAS (PARTS) [só assisti]
+Aula 19.3: Manipulando a tabela de iluminação e ventilação das janelas em diferentes versões do Revit [leitura dinâmica]
+
+(29/03/2020)
+Aula 20.1: Importando e manipulando a tabela de iluminação e ventilação de portas (A porta da suíte 01 não saiu na tabela de iluminação)
+
+06/04/2020
+Aula 21.7: Criando e inserindo os corrimãos na parede e nos painéis de vidro da escada (FAZER ESTA AULA, É LEGAL)
+Aula 21.8: Configurando as tabelas de guarda-corpos da etapa de AP
+
+09/04/2020
+https://cursosconstruir.com.br/lesson/detail/1/1093/ (A PARTIR DA 22:17)
+
+13/04/2020
+Aula 23.5 (problema na criação de novo paramêtro - tempo do vídeo 2 minutos e pouco)
+Aula 23.7: Editando os rufos modelados no local (MESMO PROBLEMA ACIMA)
+Aula 23.8: Tabela de rufos externos (DEPENDE DA AULTA 23.7)
+Aula 23.9: Tabelas de montantes e painéis dos pergolados (FAZER AULA)
+MÓDULO 24 - PEÇAS HIDROSANITÁRIAS (preciso fazer as aulas 13.x que ainda não fiz :O)
+
+18/04/2020 (FALTA FAZER ESTAS AULAS)
+Aula 25.4: Criando rebaixos em gesso nas suítes
+Aula 25.5: Criando os fechamentos dos forros de gesso das suítes
+Aula 25.7: Criando a tabela de tabicas com parâmetro calculado
+Aula 25.8: Criando a tabela de fechamentos dos forros de gesso
+Aula 25.9: Criando os forros de gesso da sala íntima e do terraço das suítes
+Aula 25.10: Criando os forros de gesso da sala de estar, sala de jantar e galeria
+Aula 25.11: Criando os forros de gesso da cozinha e family room
+Aula 25.12: Inserindo a churrasqueira e criando o forro de gesso da varanda gourmet
+
+01/05/2020
+Aula 30.4: Criando e inserindo a tabela de Coeficiente de Aproveitamento [NÃO ESTÁ FUNCIONANDO]
+Aula 30.5: Criando e inserindo a tabela de taxa de permeabilidade
+Aula 30.6: Configurando a legenda da prancha
+
+02/05/2020
+Aula 30.8: Criando o quadro resumo de áreas [não fiz]
+
+05/05/2020
+MÓDULO 31: ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ILUMINAÇÃO [precisa criar os forros]
+
+07/05/2020 
+MÓDULO 32: ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ELÉTRICA [preciso dos eixos dos pontos de iluminação]
+
+
