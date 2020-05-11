@@ -1,0 +1,21 @@
+Para a obtenção do seu certificado Autodesk, é necessário que você realize e nos envie para avaliação os seguintes arquivos:
+
+Ex 01 - Etapa de Projeto de Prefeitura: 
+	1) Prancha contendo plantas baixas, cortes, fachada e tabelas pertinentes do projeto 
+	2) Arquivo .rvt nomeado como RVT 2018 PL_Ex 01_Seu Nome.rvt
+
+Ex 02 - Etapa de Projeto Executivo: 
+	1) Prancha contendo planta baixa técnica de qualquer pavimento e tabelas pertinentes 
+	2) Prancha contendo pelo menos 3 cortes técnicos e detalhes marcados nos mesmos 
+	3) Prancha contendo as vistas de fachadas técnicas 
+	4) Prancha contendo vistas de detalhamento de alguma área molhada da residência (em planta e elevações) 	5) Prancha com planta baixa de revestimentos do pavimento escolhido e tabelas pertinentes 
+	6) Prancha com planta de forro do pavimento escolhido e tabelas pertinentes 
+	7) Prancha com planta de iluminação do pavimento escolhido e tabelas pertinentes 
+	8) Prancha com vistas 3D do pavimento escolhido e de toda a residência 
+	9) Arquivo .rvt nomeado como RVT 2018 PE_Ex 02_Seu Nome.txt
+
+Todas as pranchas deverão ser convertidas em formato pdf e nomeadas de acordo com o exercício e sequência, conforme exemplo abaixo:
+
+Ex 02_Prancha 01_Seu Nome.pdf Ex 02_Prancha 02_Seu Nome.pdf Etc....
+
+Em resumo, você deverá enviar dois arquivos .rvt e no mínimo nove pranchas em pdf (essa quantidade dependerá da forma como organizará as vistas nas mesmas).
