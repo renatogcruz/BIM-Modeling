@@ -58,3 +58,11 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 ![](ifc_builder/fluxo_bim.jpg)
 
 ###### (ifc builder, 2020)
+
+## [DYNAMO BIM](https://dynamobim.org/)
+
+- Tutoriais
+
+[Checagem de áreas de janelas em função das áreas dos ambientes](https://knowledge.autodesk.com/pt-br/support/revit-products/learn-explore/caas/simplecontent/content/checagem-de--C3-A1reas-de-janelas-em-fun-C3-A7-C3-A3o-das--C3-A1reas-dos-ambientes-com-o-dynamo.html?fbclid=IwAR1c1EpfLA6GxJtN79P4g3Zce-IS6kIgiT26VwYQFp_XVRPGTFYUr7M_42w) - 1/1
+
+- Tutoriais Dynamo + Python
