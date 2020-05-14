@@ -71,4 +71,7 @@ MÓDULO 31: ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ILUMINAÇÃO [precisa criar os
 07/05/2020 
 MÓDULO 32: ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ELÉTRICA [preciso dos eixos dos pontos de iluminação]
 
+14/05/2020
+Aula 33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
+
 
