@@ -72,3 +72,9 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 [Checagem de áreas de janelas em função das áreas dos ambientes](https://knowledge.autodesk.com/pt-br/support/revit-products/learn-explore/caas/simplecontent/content/checagem-de--C3-A1reas-de-janelas-em-fun-C3-A7-C3-A3o-das--C3-A1reas-dos-ambientes-com-o-dynamo.html?fbclid=IwAR1c1EpfLA6GxJtN79P4g3Zce-IS6kIgiT26VwYQFp_XVRPGTFYUr7M_42w) - 1/1
 
 - Tutoriais Dynamo + Python
+
+## FERRAMENTA DE OTIMIZAÇÃO PARA BIM
+
+1. [Optimo](https://github.com/renatogcruz/Evolutionary-computing/tree/master/optimo_optimization_revit)
+
+O Optimo é uma ferramenta de otimização multiobjetivos BPOpt (*Performance Optimization*) baseada em BIM para Dynamo. O Optimo foi desenvolvido com base no código-fonte aberto jmetal.NET, criado originalmente por Antonio J. Nebro.
