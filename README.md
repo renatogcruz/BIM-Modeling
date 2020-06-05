@@ -49,6 +49,11 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [Revit 2017: Modelagem de Edifício Residencial + Planta Humanizada - Roberta Vendramini](https://www.youtube.com/playlist?list=PL9t0ZaF1phAW-p-J4vXmFNjb2dXmeTz8P) - 1/181
 
+[Autodesk Revit Structure Intermediário](https://engenhabim.com/curso/autodesk-revit-structure-2016/) - 1/18
+
+[Criação de Famílias para Revit](https://engenhabim.com/curso/criacao-de-familias/) - 1/28
+
+
 - Tutoriais Revit + Python
 
 [Python for Revit Course - pyRevit](https://www.youtube.com/playlist?list=PLc_1PNcpnV5742XyF8z7xyL9OF8XJNYnv) - 1/9
