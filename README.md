@@ -66,9 +66,8 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [Introdução ao Open BIM com IFC Builder](https://www.udemy.com/course/openbim-ifcbuilder/) - 1/23
 
-![](ifc_builder/fluxo_bim.jpg)
+[OpenBIM Covid19](https://www.udemy.com/course/openbim-covid19/) - 1/24
 
-###### (ifc builder, 2020)
 
 ## [DYNAMO BIM](https://dynamobim.org/)
 
