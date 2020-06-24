@@ -74,4 +74,7 @@ MÓDULO 32: ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ELÉTRICA [preciso dos eixos d
 14/05/2020
 Aula 33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
 
+24/06/2020
+Aula 34.6: Lajes e forros (não fiz plantas de forro para tudo)
+
 
