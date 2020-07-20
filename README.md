@@ -82,3 +82,13 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 1. [Optimo](https://github.com/renatogcruz/Evolutionary-computing/tree/master/optimo_optimization_revit)
 
 O Optimo é uma ferramenta de otimização multiobjetivos BPOpt (*Performance Optimization*) baseada em BIM para Dynamo. O Optimo foi desenvolvido com base no código-fonte aberto jmetal.NET, criado originalmente por Antonio J. Nebro.
+
+## FERRAMENTA BIM PARA INTERFACE GRASSHOPPER x REVIT
+
+1. [VisualArq](https://www.visualarq.com/es/download/)
+
+2. [Rhino.Inside](https://www.rhino3d.com/inside)
+
+O Rhino.Inside é um projeto de código aberto que permite que arquivos Rhino/Grasshopper sejam executados em outros aplicativos como, por exemplo, Revit.
+
+
