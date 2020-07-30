@@ -78,5 +78,5 @@ Aula 33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
 Aula 34.6: Lajes e forros (não fiz plantas de forro para tudo)
 
 27/07/2020
-Aula 35.6: Pilares x paredes - estar, garagem, piscina e colunas
+Aula 35.6: TAREFA DE CASA (Verificar interferenias nas platibandas cobertura superior, caixa d'água e do banho suíte master)
 
