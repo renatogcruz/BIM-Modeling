@@ -91,7 +91,7 @@ O Optimo é uma ferramenta de otimização multiobjetivos BPOpt (*Performance Op
 
 O Rhino.Inside é um projeto de código aberto que permite que arquivos Rhino/Grasshopper sejam executados em outros aplicativos como, por exemplo, Revit.
 
-## Programação Computacional na Metodologia BIM
+## PROGRAMAÇÃO COMPUTACIONAL NA METODOLOGIA BIM
 
 1. [Uso da Programação Computacional na Metodologia BIM](https://www.etlipse.com/downloads) - etlipse
 
