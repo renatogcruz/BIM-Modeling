@@ -68,6 +68,10 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [Python nodes](https://primer.dynamobim.org/10_Custom-Nodes/10-4_Python.html)
 
+- Tutorial Revit PDF
+
+[Manual Avanzado de Revit](https://www.espaciobim.com/recursos-gratis) - 1816 páginas
+
 ## [IFC BUILDER](http://ifc-builder.en.cype.com/)
 
 - Tutoriais
