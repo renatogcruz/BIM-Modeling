@@ -34,6 +34,10 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [Scripting examples](https://www.freecadweb.org/wiki/index.php?title=Scripting_examples) - forum freecadweb
 
+- Freecad + Dynamo
+
+[DynFreeCAD](https://github.com/infeeeee/DynFreeCAD)
+
 ## [BLENDER BIM](https://blenderbim.org/)
 
 - Tutoriais
@@ -52,6 +56,10 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 [Autodesk Revit Structure Intermediário](https://engenhabim.com/curso/autodesk-revit-structure-2016/) - 1/18
 
 [Criação de Famílias para Revit](https://engenhabim.com/curso/criacao-de-familias/) - 1/28
+
+[Revit MEP 2020 Básico: Projeto Elétrico de Residência Popular](https://cursosconstruir.com.br/curso/revit-mep-basico-projeto-eletrico/) - 1/23
+
+[Revit MEP 2019 Básico: Projeto Hidrossanitário de Residência Popular](https://cursosconstruir.com.br/curso/revit-mep-basico-projeto-hidrossanitario/) - 1/26
 
 
 - Tutoriais Revit + Python
