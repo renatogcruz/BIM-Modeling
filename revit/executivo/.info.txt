@@ -1,35 +1,18 @@
 Falta completar:
-
 Aula 13.6: Criando tabela de componentes de gabinete (não acho a versão em inglês)
 Aula 13.7: Criando tabela de peças hidrossanitárias (não acho a versão em inglês)
 
 
-
-
-
-(25/03/2020)
-Aula 17.6: Inserindo cerâmica 3D na parede da churrasqueira e na mureta da varanda gourmet
-[não apliquei revestimento na bancada da churrasqueira pq não há bancadas, revisar aulas anteriores]
-Aula 18.3: Criando revestimentos com paredes empilhada [só assisti]
-Aula 18.4: Criando revestimentos com paredes cebola [só assisti]
-
-
-
-(26/03/2020)
-Aula 18.6: Criando diferentes revestimentos com a ferramenta PEÇAS (PARTS) [só assisti]
-Aula 19.3: Manipulando a tabela de iluminação e ventilação das janelas em diferentes versões do Revit [leitura dinâmica]
-
-
-
-(29/03/2020)
-Aula 20.1: Importando e manipulando a tabela de iluminação e ventilação de portas (A porta da suíte 01 não saiu na tabela de iluminação)
-
 06/04/2020
+
 Aula 21.7: Criando e inserindo os corrimãos na parede e nos painéis de vidro da escada (FAZER ESTA AULA, É LEGAL)
+
 Aula 21.8: Configurando as tabelas de guarda-corpos da etapa de AP
 
+
+
 09/04/2020
-https://cursosconstruir.com.br/lesson/detail/1/1093/ (A PARTIR DA 22:17)
+Aula 22.13: Inserindo os rufos externos (A PARTIR DA 22:17)
 
 FALTA O PROJETO LEGAL (:/)
 
