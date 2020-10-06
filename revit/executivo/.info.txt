@@ -4,23 +4,12 @@ Aula 13.7: Criando tabela de peças hidrossanitárias (não acho a versão em in
 
 
 
-06/04/2020
-Aula 21.8: Configurando as tabelas de guarda-corpos da etapa de AP
-
-
-
-
-
-09/04/2020
-Aula 22.13: Inserindo os rufos externos (A PARTIR DA 22:17)
-
-FALTA O PROJETO LEGAL (:/)
-
 13/04/2020
 Aula 23.5 (problema na criação de novo paramêtro - tempo do vídeo 2 minutos e pouco)
 Aula 23.7: Editando os rufos modelados no local (MESMO PROBLEMA ACIMA)
 Aula 23.8: Tabela de rufos externos (DEPENDE DA AULTA 23.7)
 Aula 23.9: Tabelas de montantes e painéis dos pergolados (FAZER AULA)
+
 MÓDULO 24 - PEÇAS HIDROSANITÁRIAS (preciso fazer as aulas 13.x que ainda não fiz :O)
 
 18/04/2020 (FALTA FAZER ESTAS AULAS)
@@ -33,25 +22,30 @@ Aula 25.10: Criando os forros de gesso da sala de estar, sala de jantar e galeri
 Aula 25.11: Criando os forros de gesso da cozinha e family room
 Aula 25.12: Inserindo a churrasqueira e criando o forro de gesso da varanda gourmet
 
+PROJETO LEGAL
+
 01/05/2020
 Aula 30.4: Criando e inserindo a tabela de Coeficiente de Aproveitamento [NÃO ESTÁ FUNCIONANDO]
 Aula 30.5: Criando e inserindo a tabela de taxa de permeabilidade
 Aula 30.6: Configurando a legenda da prancha
-
-02/05/2020
 Aula 30.8: Criando o quadro resumo de áreas [não fiz]
+
 
 05/05/2020
 MÓDULO 31: ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ILUMINAÇÃO [precisa criar os forros]
 
+
 07/05/2020 
 MÓDULO 32: ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ELÉTRICA [preciso dos eixos dos pontos de iluminação]
+
 
 14/05/2020
 Aula 33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
 
+
 24/06/2020
 Aula 34.6: Lajes e forros (não fiz plantas de forro para tudo)
+
 
 27/07/2020
 Aula 35.6: TAREFA DE CASA (Verificar interferenias nas platibandas cobertura superior, caixa d'água e do banho suíte master)
