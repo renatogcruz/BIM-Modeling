@@ -8,8 +8,7 @@ Aula 23.9: Tabelas de montantes e painéis dos pergolados (FAZER AULA)
 
 MÓDULO 24 - 
 	
-Aula 24.2: Duplicando as peças hidrossanitárias e conferindo as tabelas em AP		
-Aula 24.3: Ajustando as peças hidrossanitárias do banho de serviço, lavabo e vestiário		
+		
 Aula 24.4: Ajustando as peças hidrossanitárias dos banhos das suítes 01, 02 e 03		
 Aula 24.5: Ajustando as peças hidrossanitárias do banho master	Roberta Vendramini		
 Aula 24.6: Ajustando a bancada da cozinha e os tanques da lavanderia
@@ -33,22 +32,17 @@ Aula 30.5: Criando e inserindo a tabela de taxa de permeabilidade
 Aula 30.6: Configurando a legenda da prancha
 Aula 30.8: Criando o quadro resumo de áreas [não fiz]
 
-
 05/05/2020
 MÓDULO 31: ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ILUMINAÇÃO [precisa criar os forros]
-
 
 07/05/2020 
 MÓDULO 32: ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ELÉTRICA [preciso dos eixos dos pontos de iluminação]
 
-
 14/05/2020
 Aula 33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
 
-
 24/06/2020
 Aula 34.6: Lajes e forros (não fiz plantas de forro para tudo)
-
 
 27/07/2020
 Aula 35.6: TAREFA DE CASA (Verificar interferenias nas platibandas cobertura superior, caixa d'água e do banho suíte master)
