@@ -1,16 +1,19 @@
 Falta completar:
-Aula 13.6: Criando tabela de componentes de gabinete (não acho a versão em inglês)
-Aula 13.7: Criando tabela de peças hidrossanitárias (não acho a versão em inglês)
 
-
-
-13/04/2020
 Aula 23.5 (problema na criação de novo paramêtro - tempo do vídeo 2 minutos e pouco)
 Aula 23.7: Editando os rufos modelados no local (MESMO PROBLEMA ACIMA)
 Aula 23.8: Tabela de rufos externos (DEPENDE DA AULTA 23.7)
 Aula 23.9: Tabelas de montantes e painéis dos pergolados (FAZER AULA)
 
-MÓDULO 24 - PEÇAS HIDROSANITÁRIAS (preciso fazer as aulas 13.x que ainda não fiz :O)
+
+MÓDULO 24 - 
+	
+Aula 24.2: Duplicando as peças hidrossanitárias e conferindo as tabelas em AP		
+Aula 24.3: Ajustando as peças hidrossanitárias do banho de serviço, lavabo e vestiário		
+Aula 24.4: Ajustando as peças hidrossanitárias dos banhos das suítes 01, 02 e 03		
+Aula 24.5: Ajustando as peças hidrossanitárias do banho master	Roberta Vendramini		
+Aula 24.6: Ajustando a bancada da cozinha e os tanques da lavanderia
+
 
 18/04/2020 (FALTA FAZER ESTAS AULAS)
 Aula 25.4: Criando rebaixos em gesso nas suítes
