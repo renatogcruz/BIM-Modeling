@@ -7,11 +7,9 @@ Aula 23.9: Tabelas de montantes e painéis dos pergolados (FAZER AULA)
 
 
 MÓDULO 25
-Aula 25.4: Criando rebaixos em gesso nas suítes (QUASE LÁ)
 
-
-Aula 25.5: Criando os fechamentos dos forros de gesso das suítes
 Aula 25.7: Criando a tabela de tabicas com parâmetro calculado
+
 Aula 25.8: Criando a tabela de fechamentos dos forros de gesso
 Aula 25.9: Criando os forros de gesso da sala íntima e do terraço das suítes
 Aula 25.10: Criando os forros de gesso da sala de estar, sala de jantar e galeria
