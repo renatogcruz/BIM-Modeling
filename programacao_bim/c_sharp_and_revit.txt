@@ -1,0 +1,20 @@
+[hello, world!] Step-by-Step Guide to Developing your First Revit Plugin
+http://aectechy.com/stepbystep-guide-to-your-first-revit-plugin/
+
+Revit 2019 Visual Studio .NET Add-in Wizards
+https://thebuildingcoder.typepad.com/blog/2018/09/revit-2019-visual-studio-net-add-in-wizards.html
+
+How to write a plugin for Revit - Coding for AEC
+https://www.youtube.com/watch?v=ulvaJP4kjKE
+
+Revit: Creating C# Plugins
+https://www.lynda.com/course-tutorials/Revit-Creating-C-Plugins/740363-2.html
+
+My First Revit Plug-in Overview
+https://knowledge.autodesk.com/support/revit-products/learn-explore/caas/simplecontent/content/my-first-revit-plug-overview.html
+
+building revit plug-ins with visual studio: part one
+https://archi-lab.net/building-revit-plug-ins-with-visual-studio-part-one/
+
+Pushing Revit to the Next Level: An Intro to Revit Plugins with C#
+https://www.autodesk.com/autodesk-university/class/Pushing-Revit-Next-Level-Intro-Revit-Plugins-C-2018
