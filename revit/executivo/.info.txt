@@ -14,10 +14,28 @@ Aula 30.6: Configurando a legenda da prancha
 Aula 30.8: Criando o quadro resumo de áreas [não fiz]
 
 MÓDULO 31
-ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ILUMINAÇÃO [precisa criar os forros]
+ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ILUMINAÇÃO 
+	
+31.2: Pav. Térreo - Luminárias de Embutir		
+31.3: Pav. Térreo - Luminárias de Sobrepor		
+31.4: Pav. Térreo - Pendentes e Arandelas		
+31.5: Pav. Térreo - Iluminação Indireta Estar		
+31.6: Pav. Térreo - Iluminação Indireta Cozinha		
+31.7: Pav. Superior - Iluminação Embutida, de Sobrepor e Arandelas		
+31.8: Pav. Térreo - Inserindo iluminação externa - Parte I		
+31.9: Pav. Térreo - Inserindo iluminação externa - Parte II		
+31.10: Tabela de luminárias
+
 
 MÓDULO 32
 ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ELÉTRICA [preciso dos eixos dos pontos de iluminação]
+
+32.2: Inserindo pontos de iluminação I		
+32.3: Inserindo pontos de iluminação II		
+32.4: Inserindo pontos de iluminação III		
+32.5: Inserindo tomadas e interruptores I		
+32.6: Inserindo tomadas e interruptores II		
+32.7: Inserindo tomadas e interruptores III
 
 MÓDULO 33
 Aula 33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
