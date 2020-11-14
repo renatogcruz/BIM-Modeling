@@ -119,10 +119,8 @@ O Rhino.Inside é um projeto de código aberto que permite que arquivos Rhino/Gr
 |[IFC ++](https://ifcquery.com/)  | Ferramenta de carregamento e salvamento IFC baseada em C ++, suporta processamento paralelo de IFC  |   [github](https://github.com/ifcquery/ifcplusplus)   |  
 | [Apstex IFC Framework](http://www.apstex.com/)      | ma ferramenta IFC baseada em Java, sua versão anterior também é chamada de Open IFC Tools, recursos que incluem carregamento / salvamento de IFC, processamento de geometria e visualização 3D          |   nc       |
 |   [IfcWebServer](https://ifcwebserver.org/)    |    talvez uma das mais antigas ferramentas IFC baseadas na web, suporta carregamento / salvamento IFC, visualização 3D / 4D, filtragem de submodelo e conversão IFC para neo4j       |  [github](https://github.com/ifcwebserver/ifcwebserver)        |
-
 | modelagem 3d      |           |          |
-
-|       |           |          |
+| [FreeCad](https://freecadweb.org/)      |    ferramenta de modelagem paramétrica 3D opensouce, suporte a vários sistemas operacionais e API python embutida disponível. O FreeCAD pode carregar e salvar IfcOpenShell-python baseado em IFC       |  [github](https://github.com/FreeCAD/FreeCAD)        |
 
 |       |           |          |
 
