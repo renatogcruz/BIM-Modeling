@@ -117,20 +117,24 @@ O Rhino.Inside é um projeto de código aberto que permite que arquivos Rhino/Gr
 |[IfcOpenShell](http://ifcopenshell.org/) | Ferramenta IFC de código aberto baseada em OpenCASCADE, suporta Linux e Windows e fornece IfcOpenShell-python para desenvolvedores de python. Enquanto isso, IfcMax, IfcBlender e plugin para BIMserver são fornecidos para 3ds Max, Blender e BIMserver|[github](https://github.com/IfcOpenShell/)|
 |[XBim Toolkit](https://docs.xbim.net/) |   Construído com base em OpenCASCADE, que fornece Xbim Essentials, Xbim Geometry para carregar / salvar IFC e processamento de dados geométricos, ambos IFC-SPF e IFCXML são suportados.         | [github](https://github.com/xBimTeam)|
 |[IFC ++](https://ifcquery.com/)  | Ferramenta de carregamento e salvamento IFC baseada em C ++, suporta processamento paralelo de IFC  |   [github](https://github.com/ifcquery/ifcplusplus)   |  
-| [Apstex IFC Framework](http://www.apstex.com/)      | ma ferramenta IFC baseada em Java, sua versão anterior também é chamada de Open IFC Tools, recursos que incluem carregamento / salvamento de IFC, processamento de geometria e visualização 3D          |   nc       |
-|   [IfcWebServer](https://ifcwebserver.org/)    |    talvez uma das mais antigas ferramentas IFC baseadas na web, suporta carregamento / salvamento IFC, visualização 3D / 4D, filtragem de submodelo e conversão IFC para neo4j       |  [github](https://github.com/ifcwebserver/ifcwebserver)        |
+| [Apstex IFC Framework](http://www.apstex.com/)      | Ferramenta IFC baseada em Java, sua versão anterior também é chamada de Open IFC Tools, recursos que incluem carregamento / salvamento de IFC, processamento de geometria e visualização 3D          |   nc       |
+|   [IfcWebServer](https://ifcwebserver.org/)    |    Ferramentas IFC baseadas na web, suporta carregamento / salvamento IFC, visualização 3D / 4D, filtragem de submodelo e conversão IFC para neo4j       |  [github](https://github.com/ifcwebserver/ifcwebserver)        |
 | modelagem 3d      |           |          |
-| [FreeCad](https://freecadweb.org/)      |    ferramenta de modelagem paramétrica 3D opensouce, suporte a vários sistemas operacionais e API python embutida disponível. O FreeCAD pode carregar e salvar IfcOpenShell-python baseado em IFC       |  [github](https://github.com/FreeCAD/FreeCAD)        |
-
-|       |           |          |
-
-|       |           |          |
-
-|       |           |          |
-
-|       |           |          |
-
-|       |           |          |
+| [FreeCad](https://freecadweb.org/)      |    Ferramenta de modelagem paramétrica 3D opensouce, suporte a vários sistemas operacionais e API python embutida disponível. O FreeCAD pode carregar e salvar IfcOpenShell-python baseado em IFC       |  [github](https://github.com/FreeCAD/FreeCAD)        |
+|  [BRL-CAD](https://brlcad.org/)     |  100% gratuito e de código aberto, oferece suporte a vários sistemas operacionais e fornece kernel de geometria híbrida CSG e B-REP. BRL-CAD tem a confiança dos militares dos EUA para modelar sistemas de armas.         |  [SourceForge](https://sourceforge.net/projects/brlcad/)        |
+|   [Blender](https://www.blender.org/)    | Ferramenta de código aberto para modelagem e animação 3D, suporta múltiplos formatos 3D e fornece API python embutida, que pode ser usada para carregar e salvar arquivos IFC baseados em IfcOpenShell-python          |          |
+|[OpenSCAD](http://www.openscad.org/)|  Ferramenta de modelagem de sólidos 3D para programador, suporta múltiplos sistemas operacionais. O OpenSCAD fornece scripts de modelagem integrados e os compila automaticamente para gerar modelos 3D.         |   [github](https://github.com/openscad/openscad/)       |
+|   Processamento e visualização 3D    |           |          |
+|  [Three.js](https://threejs.org/)     | Biblioteca javascript para visualização 3D baseada em WebGL, oferece suporte a vários formatos 3D e talvez seja a ferramenta 3D da web mais popular. Muitas ferramentas 3D da web são construídas em cima de três, por exemplo, Autodesk Forge e Glodon BIMFace.           |   [github](https://github.com/mrdoob/three.js/)       |
+|  [Cesium.js](https://cesium.com/cesiumjs/)     | Biblioteca javascript para 3D GIS, que vem da AGI e da Bentley. O suporte integrado de 3DTiles é fornecido para visualização de conjuntos de dados em grande escala.          |   [github](https://github.com/CesiumGS/cesium)       |
+|  [Helix Toolkit](http://helix-toolkit.github.io/)     | Componente de visualização 3D baseado no framework .Net          |  [github](https://github.com/helix-toolkit/helix-toolkit)        |
+|  [Trimesh](https://trimsh.org/)     |  Biblioteca python para processamento e visualização 3D, suporta vários formatos 3D, e algumas funções, incluindo casco convexo, operação booleana, voxelização, etc., são fornecidas         |   [github](https://github.com/mikedh/trimesh)       |
+|  Servidor BIM     |           |          |
+|  [BIMserver](https://bimserver.center/en)     |   Servidor BIM de código aberto, gerenciamento de suporte, controle de versão, verificação, filtragem, integração, detecção de conflito e visualização de modelos IFC, e suporte embutido de visualização baseada em WebGL BY BIMSurfer        |  [github](https://github.com/opensourceBIM/BIMserver)        |
+|  Verificação e validação de modelo     |           |          |
+|   [IfcDoc](https://github.com/buildingSMART/IfcDoc)    |           |          |
+| [python-mvdxml ](https://github.com/opensourceBIM/python-mvdxml)      |  Ferramenta de validação de modelo baseada em mvdXML aberta por opensourceBIM, construída sobre IfcOpenShell         |          |
+|  [IfcValidator](https://github.com/opensourceBIM/IfcValidator)     |   Ferramenta de validação de modelo para BIMserver, também aberta por opensourceBIM        |          |
 
 [Fonte](https://linjiarui.net/en/posts/2020-06-15-opensource-bim-tools)
 
