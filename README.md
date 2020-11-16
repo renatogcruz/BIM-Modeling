@@ -109,4 +109,28 @@ O Rhino.Inside é um projeto de código aberto que permite que arquivos Rhino/Gr
 
 2. [Programação Básica de um Add-In para Revit](https://www.etlipse.com/downloads) - etlipse
 
+## FERRAMENTAS OPEN SOURCE PARA BIM
+
+|  Nome  | Descrição     |  Código-fonte   |
+|-------|  ------------  |  ------------  |
+|Abrir e salvar IFC|      |                |
+|[IfcOpenShell](http://ifcopenshell.org/) | Ferramenta IFC de código aberto baseada em OpenCASCADE, suporta Linux e Windows e fornece IfcOpenShell-python para desenvolvedores de python. Enquanto isso, IfcMax, IfcBlender e plugin para BIMserver são fornecidos para 3ds Max, Blender e BIMserver|[github](https://github.com/IfcOpenShell/)|
+|[XBim Toolkit](https://docs.xbim.net/) |   Construído com base em OpenCASCADE, que fornece Xbim Essentials, Xbim Geometry para carregar / salvar IFC e processamento de dados geométricos, ambos IFC-SPF e IFCXML são suportados.         | [github](https://github.com/xBimTeam)|
+|[IFC ++](https://ifcquery.com/)  | Ferramenta de carregamento e salvamento IFC baseada em C ++, suporta processamento paralelo de IFC  |   [github](https://github.com/ifcquery/ifcplusplus)   |  
+| [Apstex IFC Framework](http://www.apstex.com/)      | ma ferramenta IFC baseada em Java, sua versão anterior também é chamada de Open IFC Tools, recursos que incluem carregamento / salvamento de IFC, processamento de geometria e visualização 3D          |   nc       |
+|   [IfcWebServer](https://ifcwebserver.org/)    |    talvez uma das mais antigas ferramentas IFC baseadas na web, suporta carregamento / salvamento IFC, visualização 3D / 4D, filtragem de submodelo e conversão IFC para neo4j       |  [github](https://github.com/ifcwebserver/ifcwebserver)        |
+| modelagem 3d      |           |          |
+| [FreeCad](https://freecadweb.org/)      |    ferramenta de modelagem paramétrica 3D opensouce, suporte a vários sistemas operacionais e API python embutida disponível. O FreeCAD pode carregar e salvar IfcOpenShell-python baseado em IFC       |  [github](https://github.com/FreeCAD/FreeCAD)        |
+
+|       |           |          |
+
+|       |           |          |
+
+|       |           |          |
+
+|       |           |          |
+
+|       |           |          |
+
+[Fonte](https://linjiarui.net/en/posts/2020-06-15-opensource-bim-tools)
 
