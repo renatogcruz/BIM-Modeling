@@ -61,6 +61,7 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [Revit MEP 2019 Básico: Projeto Hidrossanitário de Residência Popular](https://cursosconstruir.com.br/curso/revit-mep-basico-projeto-hidrossanitario/) - 1/26
 
+[Revit Alvenaria Estrutural](https://engenhabim.com/home/) - 1/70
 
 - Tutoriais Revit + Python
 
