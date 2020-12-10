@@ -1,8 +1,6 @@
 # BIM-Modeling
 Modelagem 3D e ferramentas de software BIM para arquitetura
 
-
-
 # 3D_BIM
 
 Modelagem 3D e ferramentas de software BIM para arquitetura
@@ -109,6 +107,13 @@ O Rhino.Inside é um projeto de código aberto que permite que arquivos Rhino/Gr
 1. [Uso da Programação Computacional na Metodologia BIM](https://www.etlipse.com/downloads) - etlipse
 
 2. [Programação Básica de um Add-In para Revit](https://www.etlipse.com/downloads) - etlipse
+
+## Modelo Open Source BIM
+
+Este tópico será dedicado a modelo abertos
+
+[OpeningDesign's Open Source Revit Template](https://community.osarch.org/discussion/349/openingdesigns-open-source-revit-template/)
+
 
 ## FERRAMENTAS OPEN SOURCE PARA BIM
 
