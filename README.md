@@ -86,6 +86,14 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [Checagem de áreas de janelas em função das áreas dos ambientes](https://knowledge.autodesk.com/pt-br/support/revit-products/learn-explore/caas/simplecontent/content/checagem-de--C3-A1reas-de-janelas-em-fun-C3-A7-C3-A3o-das--C3-A1reas-dos-ambientes-com-o-dynamo.html?fbclid=IwAR1c1EpfLA6GxJtN79P4g3Zce-IS6kIgiT26VwYQFp_XVRPGTFYUr7M_42w) - 1/1
 
+[Dynamo Basics Training](https://www.youtube.com/watch?v=8DAsh04sR4c&list=PLdGxhdaseXECO1hxio7vvE-y1Ud7qbW_n) - 1/8
+
+[Dynamo Advanced Course I](https://www.youtube.com/watch?v=oo-aqVVR6Zo&list=PLdGxhdaseXEBRnKWRk7-Tas6dxp65q9bk) - 1/5
+
+## Revit plugins
+
+[Revit plugins](https://www.youtube.com/watch?v=ly-rkEs2TRE&list=PLdGxhdaseXEAEawca6yz8s1BHR2Iu2pHN) - 1/26
+
 - Tutoriais Dynamo + Python
 
 ## FERRAMENTA DE OTIMIZAÇÃO PARA BIM
