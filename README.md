@@ -63,6 +63,8 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 - Tutoriais Revit + Python
 
+[Python For Beginners](https://www.youtube.com/watch?v=ZGTjadgZB3A&list=PLpH7oSFnuC2rR1jnNmKD-5Z0HZ2aq2hiD) - 1 / 3
+
 [Python for Revit Course - pyRevit](https://www.youtube.com/playlist?list=PLc_1PNcpnV5742XyF8z7xyL9OF8XJNYnv) - 1/9
 
 [Python nodes](https://primer.dynamobim.org/10_Custom-Nodes/10-4_Python.html)
