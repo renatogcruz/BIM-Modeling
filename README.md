@@ -92,6 +92,8 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [Dynamo Advanced Course I](https://www.youtube.com/watch?v=oo-aqVVR6Zo&list=PLdGxhdaseXEBRnKWRk7-Tas6dxp65q9bk) - 1/5
 
+[The Dynamo Dictionary](https://dictionary.dynamobim.com/2/#/)
+
 ## Revit plugins
 
 [Revit plugins](https://www.youtube.com/watch?v=ly-rkEs2TRE&list=PLdGxhdaseXEAEawca6yz8s1BHR2Iu2pHN) - 1/26
