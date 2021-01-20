@@ -4,7 +4,16 @@
   "Description": null,
   "Name": "lesson_01",
   "ElementResolver": {
-    "ResolutionMap": {}
+    "ResolutionMap": {
+      "Point": {
+        "Key": "Autodesk.DesignScript.Geometry.Point",
+        "Value": "ProtoGeometry.dll"
+      },
+      "Line": {
+        "Key": "Autodesk.DesignScript.Geometry.Line",
+        "Value": "ProtoGeometry.dll"
+      }
+    }
   },
   "Inputs": [],
   "Outputs": [],
@@ -64,7 +73,7 @@
       "MaximumValue": 100.0,
       "MinimumValue": 0.0,
       "StepValue": 0.1,
-      "InputValue": 5.4,
+      "InputValue": 10.0,
       "Id": "35746b0fb6ce4dccb0d2f0ebd0cb2629",
       "Inputs": [],
       "Outputs": [
@@ -128,30 +137,6 @@
       ],
       "Replication": "Disabled",
       "Description": "A slider that produces integer values."
-    },
-    {
-      "ConcreteType": "CoreNodeModels.Input.DoubleSlider, CoreNodeModels",
-      "NodeType": "NumberInputNode",
-      "NumberType": "Double",
-      "MaximumValue": 100.0,
-      "MinimumValue": 0.0,
-      "StepValue": 0.001,
-      "InputValue": 5.252,
-      "Id": "cd9d9c3ea5884df7b48d1bde830279a4",
-      "Inputs": [],
-      "Outputs": [
-        {
-          "Id": "8cecea1f06ab442588f01a82f785248d",
-          "Name": "",
-          "Description": "Double",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        }
-      ],
-      "Replication": "Disabled",
-      "Description": "A slider that produces numeric values."
     },
     {
       "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
@@ -239,6 +224,44 @@
       ],
       "Replication": "Auto",
       "Description": "Creates a straight Line between two input Points.\n\nLine.ByStartPointEndPoint (startPoint: Point, endPoint: Point): Line"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "p1 = Point.ByCoordinates(0,0,0);\np2 = Point.ByCoordinates(10,10,0);\nmyLine = Line.ByStartPointEndPoint(p1, p2);",
+      "Id": "f8a3220dba4d48708215c98cf8c7812a",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "b28af56097d846439379a00734a52433",
+          "Name": "",
+          "Description": "p1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "1702853556154775a17e3e939c648568",
+          "Name": "",
+          "Description": "p2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "acc20021c29c488081dd3b24f33806ec",
+          "Name": "",
+          "Description": "myLine",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
     }
   ],
   "Connectors": [
@@ -292,7 +315,7 @@
       "HasRunWithoutCrash": true,
       "IsVisibleInDynamoLibrary": true,
       "Version": "2.5.0.7460",
-      "RunType": "Automatic",
+      "RunType": "Manual",
       "RunPeriod": "1000"
     },
     "Camera": {
@@ -315,8 +338,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 23.845567873779316,
-        "Y": 157.63585560556973
+        "X": -329.36212031262795,
+        "Y": -375.31065615498551
       },
       {
         "ShowGeometry": true,
@@ -325,8 +348,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -336.41779294959406,
-        "Y": 165.13136549298173
+        "X": -689.62548113600133,
+        "Y": -367.81514626757354
       },
       {
         "ShowGeometry": true,
@@ -335,8 +358,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -330.10348355450787,
-        "Y": 323.38763284547423
+        "X": -683.31117174091514,
+        "Y": -209.55887891508104
       },
       {
         "ShowGeometry": true,
@@ -345,18 +368,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -331.79211866584296,
-        "Y": 390.9125843474697
-      },
-      {
-        "ShowGeometry": true,
-        "Name": "Number Slider",
-        "Id": "cd9d9c3ea5884df7b48d1bde830279a4",
-        "IsSetAsInput": false,
-        "IsSetAsOutput": false,
-        "Excluded": false,
-        "X": -334.60915022294421,
-        "Y": 226.33836909507923
+        "X": -684.99980685225023,
+        "Y": -142.03392741308556
       },
       {
         "ShowGeometry": true,
@@ -365,8 +378,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 24.175779441189718,
-        "Y": 322.29312730309385
+        "X": -329.03190874521755,
+        "Y": -210.65338445746141
       },
       {
         "ShowGeometry": true,
@@ -375,13 +388,59 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 330.5131077792646,
-        "Y": 287.00030152186883
+        "X": -22.694580407142666,
+        "Y": -245.94621023868643
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "f8a3220dba4d48708215c98cf8c7812a",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -667.69335997116207,
+        "Y": 42.435540118157931
       }
     ],
-    "Annotations": [],
-    "X": 307.39805859895233,
-    "Y": 112.60057137976504,
-    "Zoom": 0.70890277345625252
+    "Annotations": [
+      {
+        "Id": "5aac0f73744746a5a87292205b43180e",
+        "Title": "Lesson 1",
+        "Nodes": [
+          "703041b0e52846b2a78f011961f71879",
+          "35746b0fb6ce4dccb0d2f0ebd0cb2629",
+          "6e69428255ba423e8e27bd85efa5cc8c",
+          "238c2effbd6b4711b8127e564e0cd62c",
+          "cd771c9e46b04ce6ab55abfda87b3cb8",
+          "ea04ee26d8f5494899eadea24fd6e3f7"
+        ],
+        "Left": -699.62548113600133,
+        "Top": -428.31065615498551,
+        "Width": 889.93090072885866,
+        "Height": 354.27672874189994,
+        "FontSize": 36.0,
+        "InitialTop": -375.31065615498551,
+        "InitialHeight": 331.2767287419,
+        "TextblockHeight": 43.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "5992b279755b4dd5b527f726856aa440",
+        "Title": "Design Script language",
+        "Nodes": [],
+        "Left": -667.49936451017993,
+        "Top": -2.9237572936499276,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      }
+    ],
+    "X": 753.15687943101182,
+    "Y": 261.83234790649033,
+    "Zoom": 0.83936958547794782
   }
 }
