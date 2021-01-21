@@ -819,6 +819,79 @@
       ],
       "Replication": "Auto",
       "Description": "Multiplies x by y.\n\n* (x: var[]..[], y: var[]..[]): var[]..[]"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.IntegerSlider, CoreNodeModels",
+      "NodeType": "NumberInputNode",
+      "NumberType": "Integer",
+      "InputValue": 22,
+      "MaximumValue": 100,
+      "MinimumValue": 0,
+      "StepValue": 2,
+      "Id": "6fab155d976e4418a84ad1e48626b634",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "5e5f88b9e58e49dea8ac0d8d9e533348",
+          "Name": "",
+          "Description": "Int32",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "A slider that produces integer values."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CustomNodes.Function, DynamoCore",
+      "FunctionSignature": "a618b2f1-a352-4700-a83d-84826ad213bc",
+      "FunctionType": "Graph",
+      "NodeType": "FunctionNode",
+      "Id": "c705da3f5fc7402698e9084419f27ead",
+      "Inputs": [
+        {
+          "Id": "602f03687469493db6b0ea0580ac6de6",
+          "Name": "x2",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "b94cf585efad447493eb58964fe8127a",
+          "Name": "OnePoint",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "43062d7308424869bc122c94bf68db10",
+          "Name": "TwoPoint",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "53cfc4c243984d60980887d32c54aa05",
+          "Name": "Line",
+          "Description": "return value",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Create a line from two points"
     }
   ],
   "Connectors": [
@@ -946,9 +1019,16 @@
       "Start": "e545592b7af24db785a2adc41a0bd3b4",
       "End": "3522169fa614480c886ffeafaa8eb2db",
       "Id": "81ee5111117042ee851a4fea94b0ce0f"
+    },
+    {
+      "Start": "5e5f88b9e58e49dea8ac0d8d9e533348",
+      "End": "602f03687469493db6b0ea0580ac6de6",
+      "Id": "052ed40bebf24daa81e3cdcfa83a3c95"
     }
   ],
-  "Dependencies": [],
+  "Dependencies": [
+    "a618b2f1-a352-4700-a83d-84826ad213bc"
+  ],
   "NodeLibraryDependencies": [],
   "Bindings": [],
   "View": {
@@ -962,15 +1042,15 @@
     },
     "Camera": {
       "Name": "Background Preview",
-      "EyeX": 29.583047932572498,
-      "EyeY": 128.86639084973763,
-      "EyeZ": 142.7671591363885,
-      "LookX": 51.229750526874952,
-      "LookY": -89.75179979572799,
-      "LookZ": -88.059102452909329,
-      "UpX": 0.24379116101223741,
-      "UpY": 0.87461970713939641,
-      "UpZ": -0.41905397945336792
+      "EyeX": -0.61284662398651513,
+      "EyeY": 31.560449570836003,
+      "EyeZ": 70.598621326679165,
+      "LookX": -2.7643378681919213,
+      "LookY": -20.804785869004817,
+      "LookZ": -68.509005656185451,
+      "UpX": -0.0031632498975736846,
+      "UpY": 0.99691733373313141,
+      "UpZ": -0.078395303127909
     },
     "NodeViews": [
       {
@@ -1041,7 +1121,7 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "X": -241.87147903380105,
-        "Y": 52.741156334500445
+        "Y": 52.741156334500431
       },
       {
         "ShowGeometry": true,
@@ -1100,7 +1180,7 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -686.34910367589134,
+        "X": -686.34910367589146,
         "Y": 499.51227648454892
       },
       {
@@ -1120,7 +1200,7 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": -690.77708527913353,
+        "X": -690.77708527913364,
         "Y": 625.31616570595656
       },
       {
@@ -1171,7 +1251,7 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "X": 49.378537632880125,
-        "Y": 454.569493252721
+        "Y": 454.56949325272103
       },
       {
         "ShowGeometry": true,
@@ -1181,7 +1261,27 @@
         "IsSetAsOutput": false,
         "Excluded": false,
         "X": 249.28092900765569,
-        "Y": 423.64000012469438
+        "Y": 423.64000012469444
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Integer Slider",
+        "Id": "6fab155d976e4418a84ad1e48626b634",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -691.29205056558,
+        "Y": 880.188073846537
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "LineByPoint",
+        "Id": "c705da3f5fc7402698e9084419f27ead",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -311.68229676745318,
+        "Y": 879.7214812679623
       }
     ],
     "Annotations": [
@@ -1202,7 +1302,7 @@
         "Height": 354.27672874189994,
         "FontSize": 36.0,
         "InitialTop": -375.31065615498551,
-        "InitialHeight": 331.2767287419,
+        "InitialHeight": 378.27672874189994,
         "TextblockHeight": 43.0,
         "Background": "#FFC1D676"
       },
@@ -1228,22 +1328,40 @@
           "5992b279755b4dd5b527f726856aa440",
           "fd71b2053b974e55a9fb83feb3b56308"
         ],
-        "Left": -700.77708527913353,
-        "Top": -39.9489061137575,
+        "Left": -700.77708527913364,
+        "Top": -39.948906113757459,
         "Width": 1131.7985405970571,
         "Height": 787.513205315822,
         "FontSize": 36.0,
-        "InitialTop": 13.051093886242498,
-        "InitialHeight": 764.513205315822,
+        "InitialTop": 13.051093886242541,
+        "InitialHeight": 758.513205315822,
         "TextblockHeight": 43.0,
         "Background": "#FFFFB8D8"
+      },
+      {
+        "Id": "6589960e17bb43b4b38e67faa10ec77c",
+        "Title": "Lesson 3",
+        "Nodes": [
+          "6fab155d976e4418a84ad1e48626b634",
+          "c705da3f5fc7402698e9084419f27ead",
+          "e8113b5d7bd443f780c0484acc4a9b59"
+        ],
+        "Left": -701.29205056558,
+        "Top": 785.57976029941767,
+        "Width": 589.6097537981268,
+        "Height": 239.14172096854463,
+        "FontSize": 36.0,
+        "InitialTop": 838.57976029941767,
+        "InitialHeight": 216.14172096854463,
+        "TextblockHeight": 43.0,
+        "Background": "#FFA4E1FF"
       },
       {
         "Id": "5992b279755b4dd5b527f726856aa440",
         "Title": "Design Script language",
         "Nodes": [],
         "Left": -243.09479231370631,
-        "Top": 13.051093886242498,
+        "Top": 13.051093886242541,
         "Width": 0.0,
         "Height": 0.0,
         "FontSize": 36.0,
@@ -1265,10 +1383,24 @@
         "InitialHeight": 0.0,
         "TextblockHeight": 0.0,
         "Background": "#FFC1D676"
+      },
+      {
+        "Id": "e8113b5d7bd443f780c0484acc4a9b59",
+        "Title": "Create custon node",
+        "Nodes": [],
+        "Left": -312.02878445939871,
+        "Top": 838.57976029941767,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
       }
     ],
-    "X": 386.99455901114328,
-    "Y": 170.7580086923667,
-    "Zoom": 0.26087073561726903
+    "X": 450.29899561330274,
+    "Y": -49.649641324156647,
+    "Zoom": 0.23410098312627578
   }
 }
