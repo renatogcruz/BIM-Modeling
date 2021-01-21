@@ -42,6 +42,12 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [BlenderBIM beginners tutorial: my first BIM project](https://blenderbim.org/blenderbim-tutorial.html) - 1/1
 
+## [SVERCHOK](https://github.com/nortikin/sverchok/)
+
+- Tutoriais
+
+[Sverchok](https://www.youtube.com/watch?v=H_CG7CVmjog&list=PLVm7O9OzjT6Gacl6Ag1JAySU2tXMUGGMp) - 1/3
+
 
 ## [REVIT](https://www.autodesk.com/products/revit/overview)
 
