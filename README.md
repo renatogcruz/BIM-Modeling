@@ -26,6 +26,8 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [FreeCAD Lessons for Beginners - Learn FreeCAD](https://www.youtube.com/playlist?list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) - 1/13
 
+[Curso de Desenho Técnico FreeCAD](https://www.youtube.com/watch?v=Y_6Q41OtIQQ&list=PLCQQLujpF4hUJrabtQ_a68gS3nflFC-nd&index=1&pbjreload=1010 - 1/7
+
 - Tutoriais Freecad + Python
 
 [Python scripting tutorial](https://www.freecadweb.org/wiki/index.php?title=Introduction_to_Python) - forum freecadweb
