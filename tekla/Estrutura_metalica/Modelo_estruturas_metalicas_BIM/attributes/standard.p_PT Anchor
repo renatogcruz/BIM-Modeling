@@ -1,0 +1,14 @@
+PT Anchor_attributes.saveas_file "standard"
+PT Anchor_attributes.get_menu "standard"
+PT Anchor_attributes.name_enable 1
+PT Anchor_attributes.ThirdHandle 0
+PT Anchor_attributes.AtDepthValue 0.000000
+PT Anchor_attributes.AtDepth 0
+PT Anchor_attributes.RotationValue 0.000000
+PT Anchor_attributes.Rotation 1
+PT Anchor_attributes.OnPlaneValue 0.000000
+PT Anchor_attributes.OnPlane 0
+PT Anchor_attributes.D1 305.000000
+PT Anchor_attributes.P3 ""
+PT Anchor_attributes.P2 101
+PT Anchor_attributes.P1 "PT_ANCHOR"

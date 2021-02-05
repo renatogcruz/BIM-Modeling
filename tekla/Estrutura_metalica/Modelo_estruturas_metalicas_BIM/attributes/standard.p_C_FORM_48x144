@@ -1,0 +1,14 @@
+C_FORM_48x144_attributes.saveas_file "standard"
+C_FORM_48x144_attributes.get_menu "standard"
+C_FORM_48x144_attributes.name_enable 1
+C_FORM_48x144_attributes.ThirdHandle 0
+C_FORM_48x144_attributes.AtDepthValue 0.000000
+C_FORM_48x144_attributes.AtDepth 1
+C_FORM_48x144_attributes.RotationValue -0.000000
+C_FORM_48x144_attributes.Rotation 1
+C_FORM_48x144_attributes.OnPlaneValue 0.000000
+C_FORM_48x144_attributes.OnPlane 2
+C_FORM_48x144_attributes.P3 "300W"
+C_FORM_48x144_attributes.P2 "L51X51X3.2"
+C_FORM_48x144_attributes.P1 "Yellow Poplar"
+C_FORM_48x144_attributes.N1 5.000000

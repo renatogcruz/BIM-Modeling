@@ -1,0 +1,12 @@
+Flat Tie_attributes.saveas_file "standard"
+Flat Tie_attributes.get_menu "standard"
+Flat Tie_attributes.name_enable 0
+Flat Tie_attributes.ThirdHandle 0
+Flat Tie_attributes.AtDepthValue -17.460000
+Flat Tie_attributes.AtDepth 2
+Flat Tie_attributes.RotationValue -0.000000
+Flat Tie_attributes.Rotation 1
+Flat Tie_attributes.OnPlaneValue 0.000000
+Flat Tie_attributes.OnPlane 0
+Flat Tie_attributes.WB1 "300W"
+Flat Tie_attributes.T1 305.000000

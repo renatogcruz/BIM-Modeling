@@ -1,0 +1,30 @@
+page("TeklaStructures","")
+{
+   macro(1, "Formworkplacingtools-TestShapes")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Wall Height", "Height", distance, number, 1)
+           parameter("BThick", "B_Thick0", distance, number, 2)
+           parameter("T_Thick0", "T_Thick0", distance, number, 3)
+           parameter("T_Thick1", "T_Thick1", distance, number, 4)
+           parameter("L_Thick0", "L_Thick0", distance, number, 5)
+           parameter("L_Thick1", "L_Thick1", distance, number, 6)
+           parameter("X_Thick0", "X_Thick0", distance, number, 7)
+           parameter("IP_Thick0", "IP_Thick0", distance, number, 8)
+           parameter("IP_Thick1", "IP_Thick1", distance, number, 9)
+           parameter("IP_Thick2", "IP_Thick2", distance, number, 10)
+           parameter("P_Thick0", "P_Thick0", distance, number, 11)
+           parameter("P_Thick1", "P_Thick1", distance, number, 12)
+           parameter("P_Thick2", "P_Thick2", distance, number, 13)
+           parameter("CP_Thick0", "CP_Thick0", distance, number, 14)
+           parameter("CP_Thick1", "CP_Thick1", distance, number, 15)
+           parameter("CP_Thick2", "CP_Thick2", distance, number, 16)
+           parameter("CP_Thick3", "CP_Thick3", distance, number, 17)
+           parameter("C_Thick0", "C_Thick0", distance, number, 18)
+           parameter("C_Thick1", "C_Thick1", distance, number, 19)
+           parameter("Gap", "Gap", distance, number, 20)
+           parameter("Typical Spacing", "TypicalLength", distance, number, 21)
+       }
+   }
+}

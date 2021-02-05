@@ -1,0 +1,8 @@
+joint_attributes.saveas_file "standard"
+joint_attributes.get_menu "< ExternalDesign >"
+joint_attributes.name_enable 1
+joint_attributes.LineSize 25.400000
+joint_attributes.IsFieldLine 0
+joint_attributes.LineClass 2
+joint_attributes.LineLabel "New Line"
+joint_attributes.LineGroupName "Default"

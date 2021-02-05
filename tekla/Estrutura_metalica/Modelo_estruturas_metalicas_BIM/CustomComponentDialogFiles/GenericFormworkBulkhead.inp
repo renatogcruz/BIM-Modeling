@@ -1,0 +1,38 @@
+page("TeklaStructures","")
+{
+   macro(1, "Generic Formwork Bulkhead")
+   {
+        tab_page("", " Parameters 1 ", 1)
+        {
+            parameter("", "StudDim1", distance, number, 193, 17, 50)
+            picture("Formwork_Bulkhead_Dims", 0, 0, 60, 30)
+            parameter("", "StudDim2", distance, number, 36, 31, 50)
+            attribute("", "Bulkhead offset:", label, "%s", none, none, "0", "0", 30, 404)
+            parameter("", "FPT_BulkHeadOffset", distance, number, 200, 404, 70)
+            parameter("", "FPT_Height", distance, number, 270, 168, 70)
+            attribute("Number_Studs", "", option, "%s", none, none, "0.0", "0.0", 510, 104, 260)
+            {
+                value("Formwork_Bulkhead_2.xbm", 1)
+                value("Formwork_Bulkhead_3.xbm", 0)
+                value("Formwork_Bulkhead_4.xbm", 0)
+            }
+            parameter("", "CreateStuds", YesNo, number, 550, 15, 70)
+            parameter("", "FPT_Thickness0", distance, number, 70, 310, 70)
+            attribute("", "Create Studs:", label, "%s", none, none, "0", "0", 374, 15)
+            attribute("", "Stud name:", label, "%s", none, none, "0", "0", 374, 44)
+            parameter("", "StudName", string, text, 550, 44, 160)
+            attribute("", "Stud class:", label, "%s", none, none, "0", "0", 374, 75)
+            parameter("", "StudClass", integer, number, 550, 75, 160)
+            parameter("", "PlyThick", distance, number, 550, 210, 70)
+            attribute("", "PlyThick:", label, "%s", none, none, "0", "0", 374, 210)
+            attribute("", "Ply name:", label, "%s", none, none, "0", "0", 374, 239)
+            parameter("", "PlyName", string, text, 550, 239, 160)
+            attribute("", "Ply class:", label, "%s", none, none, "0", "0", 374, 270)
+            parameter("", "PlyClass", integer, number, 550, 270, 160)
+            attribute("", "Stud material:", label, "%s", none, none, "0", "0", 374, 299)
+            parameter("", "StudMaterial", material, text, 550, 299, 160)
+            attribute("", "Ply material:", label, "%s", none, none, "0", "0", 374, 330)
+            parameter("", "PlyMaterial", material, text, 550, 330, 160)
+        }
+    }
+}

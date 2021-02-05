@@ -1,0 +1,15 @@
+Panel Form_attributes.saveas_file "standard"
+Panel Form_attributes.get_menu "standard"
+Panel Form_attributes.name_enable 1
+Panel Form_attributes.ThirdHandle 0
+Panel Form_attributes.AtDepthValue -304.800000
+Panel Form_attributes.AtDepth 0
+Panel Form_attributes.RotationValue 0.000000
+Panel Form_attributes.Rotation 3
+Panel Form_attributes.OnPlaneValue 0.000000
+Panel Form_attributes.OnPlane 1
+Panel Form_attributes.P5 "300W"
+Panel Form_attributes.P4 "L51X51X3.2"
+Panel Form_attributes.P3 "Yellow Poplar"
+Panel Form_attributes.A1 10.000000
+Panel Form_attributes.D1 915.000000

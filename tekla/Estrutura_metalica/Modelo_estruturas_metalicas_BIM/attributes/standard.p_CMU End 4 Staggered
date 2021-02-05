@@ -1,0 +1,17 @@
+CMU End 4 Staggered_attributes.saveas_file "standard"
+CMU End 4 Staggered_attributes.get_menu "standard"
+CMU End 4 Staggered_attributes.name_enable 0
+CMU End 4 Staggered_attributes.ThirdHandle 0
+CMU End 4 Staggered_attributes.AtDepthValue 0.000000
+CMU End 4 Staggered_attributes.AtDepth 0
+CMU End 4 Staggered_attributes.RotationValue -0.000000
+CMU End 4 Staggered_attributes.Rotation 1
+CMU End 4 Staggered_attributes.OnPlaneValue 0.000000
+CMU End 4 Staggered_attributes.OnPlane 0
+CMU End 4 Staggered_attributes.P12 1
+CMU End 4 Staggered_attributes.P8 "C90"
+CMU End 4 Staggered_attributes.P7 "CMU_BLOCK_8"
+CMU End 4 Staggered_attributes.P6 "STRETCHER"
+CMU End 4 Staggered_attributes.P5 "CMU1/2_8"
+CMU End 4 Staggered_attributes.P4 "HALF STRETCHER"
+CMU End 4 Staggered_attributes.P1 2440.000000

@@ -1,0 +1,10 @@
+page("TeklaStructures","")
+{
+   macro(1, "GenericFormworkItem")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("ItemReference", "ItemReference", string, text, 1)
+       }
+   }
+}

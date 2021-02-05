@@ -1,0 +1,9 @@
+joint_attributes.saveas_file "Field"
+joint_attributes.get_menu "< ExternalDesign >"
+joint_attributes.name_enable 1
+joint_attributes.IsFieldPoint 1
+joint_attributes.IsStakedoutPoint 0
+joint_attributes.PointClass 3
+joint_attributes.PointDescription ""
+joint_attributes.PointLabel "Field Point"
+joint_attributes.PointGroupName "Default"

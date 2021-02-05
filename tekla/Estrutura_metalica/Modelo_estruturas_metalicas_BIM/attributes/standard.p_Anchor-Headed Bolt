@@ -1,0 +1,16 @@
+Anchor-Headed Bolt_attributes.saveas_file "standard"
+Anchor-Headed Bolt_attributes.get_menu "standard"
+Anchor-Headed Bolt_attributes.name_enable 0
+Anchor-Headed Bolt_attributes.ThirdHandle 0
+Anchor-Headed Bolt_attributes.AtDepthValue 0.000000
+Anchor-Headed Bolt_attributes.AtDepth 0
+Anchor-Headed Bolt_attributes.RotationValue -0.000000
+Anchor-Headed Bolt_attributes.Rotation 1
+Anchor-Headed Bolt_attributes.OnPlaneValue 0.000000
+Anchor-Headed Bolt_attributes.OnPlane 0
+Anchor-Headed Bolt_attributes.P3 50.000000
+Anchor-Headed Bolt_attributes.P2 20.000000
+Anchor-Headed Bolt_attributes.P1 255.000000
+Anchor-Headed Bolt_attributes.P17 0
+Anchor-Headed Bolt_attributes.P16 175.000000
+Anchor-Headed Bolt_attributes.R3 "300W"

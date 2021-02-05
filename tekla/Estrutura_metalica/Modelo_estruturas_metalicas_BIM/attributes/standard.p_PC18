@@ -1,0 +1,10 @@
+PC18_attributes.saveas_file "standard"
+PC18_attributes.get_menu "standard"
+PC18_attributes.name_enable 0
+PC18_attributes.ThirdHandle 0
+PC18_attributes.AtDepthValue 0.000000
+PC18_attributes.AtDepth 0
+PC18_attributes.RotationValue 0.000000
+PC18_attributes.Rotation 3
+PC18_attributes.OnPlaneValue 0.000000
+PC18_attributes.OnPlane 0

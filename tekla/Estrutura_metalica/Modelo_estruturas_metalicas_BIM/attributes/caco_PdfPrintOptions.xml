@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PdfPrintOptions Version="1.3">
+  <Options>
+    <PrintTarget>PDF</PrintTarget>
+    <PrinterName>PDF-XChange Printer 2012</PrinterName>
+    <PDFAndPlotFileLocation>.\Plotfiles</PDFAndPlotFileLocation>
+    <EmbedFonts>true</EmbedFonts>
+    <OpenFolderWhenFinished>false</OpenFolderWhenFinished>
+    <OpenFileWhenFinished>true</OpenFileWhenFinished>
+    <OutputToSingleFile>false</OutputToSingleFile>
+    <SinglePDFFileName>Combined</SinglePDFFileName>
+    <PlotFileExtension>plt</PlotFileExtension>
+    <PlotFilePrefix />
+    <PlotFileSuffix />
+    <ScalingMethod>Auto</ScalingMethod>
+    <ScaleFactor>1</ScaleFactor>
+    <CenterDrawingOnPaper>true</CenterDrawingOnPaper>
+    <PrintOnMultipleSheets>false</PrintOnMultipleSheets>
+    <MultipleSheetOrder>LeftToRightTopToBottom</MultipleSheetOrder>
+    <PaperSize>Auto</PaperSize>
+    <Orientation>Auto</Orientation>
+    <ColorMode>Color</ColorMode>
+    <NumberOfCopies>1</NumberOfCopies>
+    <Collate>false</Collate>
+    <IncludeRevision>false</IncludeRevision>
+    <LineThicknesses>
+      <LineThickness Color="151" Pen="0" />
+      <LineThickness Color="150" Pen="0" />
+      <LineThickness Color="0" Pen="0" />
+      <LineThickness Color="152" Pen="0" />
+      <LineThickness Color="153" Pen="1" />
+      <LineThickness Color="160" Pen="1" />
+      <LineThickness Color="161" Pen="3" />
+      <LineThickness Color="162" Pen="5" />
+      <LineThickness Color="163" Pen="4" />
+      <LineThickness Color="164" Pen="2" />
+      <LineThickness Color="165" Pen="4" />
+      <LineThickness Color="154" Pen="1" />
+      <LineThickness Color="155" Pen="3" />
+      <LineThickness Color="156" Pen="5" />
+      <LineThickness Color="157" Pen="4" />
+      <LineThickness Color="158" Pen="2" />
+      <LineThickness Color="159" Pen="4" />
+      <LineThickness Color="130" Pen="1" />
+      <LineThickness Color="131" Pen="1" />
+      <LineThickness Color="132" Pen="1" />
+      <LineThickness Color="133" Pen="1" />
+    </LineThicknesses>
+    <PlotColors>
+      <PlotColor Color="151" PlotColor="000000" />
+      <PlotColor Color="150" PlotColor="FFFFFF" />
+      <PlotColor Color="0" PlotColor="000000" />
+      <PlotColor Color="152" PlotColor="E7E7E7" />
+      <PlotColor Color="153" PlotColor="000000" />
+      <PlotColor Color="160" PlotColor="FF0000" />
+      <PlotColor Color="161" PlotColor="54EC54" />
+      <PlotColor Color="162" PlotColor="0000FF" />
+      <PlotColor Color="163" PlotColor="00BBE0" />
+      <PlotColor Color="164" PlotColor="7F7F00" />
+      <PlotColor Color="165" PlotColor="C400CD" />
+      <PlotColor Color="154" PlotColor="804040" />
+      <PlotColor Color="155" PlotColor="00A000" />
+      <PlotColor Color="156" PlotColor="333399" />
+      <PlotColor Color="157" PlotColor="008080" />
+      <PlotColor Color="158" PlotColor="FF9933" />
+      <PlotColor Color="159" PlotColor="706B70" />
+      <PlotColor Color="130" PlotColor="4C4C4C" />
+      <PlotColor Color="131" PlotColor="7F7F7F" />
+      <PlotColor Color="132" PlotColor="B2B2B2" />
+      <PlotColor Color="133" PlotColor="E5E5E5" />
+    </PlotColors>
+  </Options>
+  <PreviewMinimumPenWidth>0.5</PreviewMinimumPenWidth>
+</PdfPrintOptions>

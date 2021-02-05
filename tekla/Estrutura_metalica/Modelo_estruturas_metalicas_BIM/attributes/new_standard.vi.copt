@@ -1,0 +1,11 @@
+TITLE_CLASSIFIER
+{
+    Version= 1.00
+    Count= 1
+    SECTION_CLASSIFIER_GROUP
+    {
+        albl_Bolt_mark
+        stud
+        filter_standard_stud
+        }
+    }

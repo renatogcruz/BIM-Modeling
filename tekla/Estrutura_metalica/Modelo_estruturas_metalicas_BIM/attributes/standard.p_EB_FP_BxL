@@ -1,0 +1,13 @@
+joint_attributes.get_menu "< ExternalDesign >"
+joint_attributes.name_enable 0
+joint_attributes.ThirdHandle 0
+joint_attributes.AtDepthValue 0.000000
+joint_attributes.AtDepth 0
+joint_attributes.RotationValue -0.000000
+joint_attributes.Rotation 1
+joint_attributes.OnPlaneValue 0.000000
+joint_attributes.OnPlane 0
+joint_attributes.P14a 100.000000
+joint_attributes.P12a "60.0"
+joint_attributes.P11a 60.000000
+joint_attributes.P9a 20.000000

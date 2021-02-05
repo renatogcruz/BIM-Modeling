@@ -1,0 +1,10 @@
+PC22_attributes.saveas_file "standard"
+PC22_attributes.get_menu "standard"
+PC22_attributes.name_enable 0
+PC22_attributes.ThirdHandle 0
+PC22_attributes.AtDepthValue 0.000000
+PC22_attributes.AtDepth 0
+PC22_attributes.RotationValue 0.000000
+PC22_attributes.Rotation 3
+PC22_attributes.OnPlaneValue 0.000000
+PC22_attributes.OnPlane 0

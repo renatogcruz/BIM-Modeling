@@ -1,0 +1,10 @@
+page("TeklaStructures","")
+{
+   macro(1, "GenericFormworkFillerPanel")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Filler Item", "FillerItem", string, text, 1)
+       }
+   }
+}

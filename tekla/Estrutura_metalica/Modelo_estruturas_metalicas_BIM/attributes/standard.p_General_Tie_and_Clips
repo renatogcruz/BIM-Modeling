@@ -1,0 +1,15 @@
+General_Tie_and_Clips_attributes.saveas_file "standard"
+General_Tie_and_Clips_attributes.get_menu "standard"
+General_Tie_and_Clips_attributes.name_enable 0
+General_Tie_and_Clips_attributes.ThirdHandle 0
+General_Tie_and_Clips_attributes.AtDepthValue 0.000000
+General_Tie_and_Clips_attributes.AtDepth 0
+General_Tie_and_Clips_attributes.RotationValue -0.000000
+General_Tie_and_Clips_attributes.Rotation 1
+General_Tie_and_Clips_attributes.OnPlaneValue 0.000000
+General_Tie_and_Clips_attributes.OnPlane 0
+General_Tie_and_Clips_attributes.CLTClip_attrfile "standard"
+General_Tie_and_Clips_attributes.CLTClip_name "General_Clip"
+General_Tie_and_Clips_attributes.CLTTie_attrfile "standard"
+General_Tie_and_Clips_attributes.CLTTie_name "General_Tie"
+General_Tie_and_Clips_attributes.CLTClipDist 50.000000

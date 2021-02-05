@@ -1,0 +1,12 @@
+page("TeklaStructures","")
+{
+   macro(1, "GenericFormworkAdjustableClamp")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("ItemReference", "ItemReference", string, text, 1)
+           parameter("Filler Width", "FillWidth", distance, number, 2)
+           parameter("Extra Length", "ExtraLength", distance, number, 3)
+       }
+   }
+}
