@@ -83,6 +83,11 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 [Manual Avanzado de Revit](https://www.espaciobim.com/recursos-gratis) - 1816 páginas
 
+## [TEKLA BIM](https://www.tekla.com/us/tekla-structures-steel-evaluation)
+
+[Tekla BIM - Estruturas Metálicas]() - 1/15
+
+
 ## [IFC BUILDER](http://ifc-builder.en.cype.com/)
 
 - Tutoriais
