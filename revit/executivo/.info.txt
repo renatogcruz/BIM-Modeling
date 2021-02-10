@@ -1,11 +1,10 @@
 Falta completar:
 
+MÓDULO 23
 Aula 23.5 (problema na criação de novo paramêtro - tempo do vídeo 2 minutos e pouco)
 Aula 23.7: Editando os rufos modelados no local (MESMO PROBLEMA ACIMA)
 Aula 23.8: Tabela de rufos externos (DEPENDE DA AULTA 23.7)
 Aula 23.9: Tabelas de montantes e painéis dos pergolados (FAZER AULA)
-
-PROJETO LEGAL
 
 MÓDULO 30
 Aula 30.4: Criando e inserindo a tabela de Coeficiente de Aproveitamento [NÃO ESTÁ FUNCIONANDO]
@@ -13,17 +12,7 @@ Aula 30.5: Criando e inserindo a tabela de taxa de permeabilidade
 Aula 30.6: Configurando a legenda da prancha
 Aula 30.8: Criando o quadro resumo de áreas [não fiz]
 
-MÓDULO 31
-ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ILUMINAÇÃO 
-
-31.8: Pav. Térreo - Inserindo iluminação externa - Parte I		
-31.9: Pav. Térreo - Inserindo iluminação externa - Parte II		
-31.10: Tabela de luminárias
-
-
 MÓDULO 32
-ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ELÉTRICA [preciso dos eixos dos pontos de iluminação]
-
 32.2: Inserindo pontos de iluminação I		
 32.3: Inserindo pontos de iluminação II		
 32.4: Inserindo pontos de iluminação III		
@@ -32,14 +21,11 @@ ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ELÉTRICA [preciso dos eixos dos pontos de
 32.7: Inserindo tomadas e interruptores III
 
 MÓDULO 33
-
 33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
 
 MÓDULO 34
-
 34.6: Lajes e forros (não fiz plantas de forro para tudo)
 
 MÓDULO 35
-
 35.6: TAREFA DE CASA (Verificar interferenias nas platibandas cobertura superior, caixa d'água e do banho suíte master)
 
