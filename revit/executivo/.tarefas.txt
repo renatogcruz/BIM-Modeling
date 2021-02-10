@@ -8,7 +8,7 @@ Ex 02 - Etapa de Projeto Executivo:
 	1) Prancha contendo planta baixa técnica de qualquer pavimento e tabelas pertinentes 
 	2) Prancha contendo pelo menos 3 cortes técnicos e detalhes marcados nos mesmos 
 	3) Prancha contendo as vistas de fachadas técnicas 
-	4) Prancha contendo vistas de detalhamento de alguma área molhada da residência (em planta e elevações) 	5) Prancha com planta baixa de revestimentos do pavimento escolhido e tabelas pertinentes 
+	4) Prancha contendo vistas de detalhamento de alguma área molhada da residência (em planta e elevações) 		5) Prancha com planta baixa de revestimentos do pavimento escolhido e tabelas pertinentes 
 	6) Prancha com planta de forro do pavimento escolhido e tabelas pertinentes 
 	7) Prancha com planta de iluminação do pavimento escolhido e tabelas pertinentes 
 	8) Prancha com vistas 3D do pavimento escolhido e de toda a residência 

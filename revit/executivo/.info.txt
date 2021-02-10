@@ -15,13 +15,7 @@ Aula 30.8: Criando o quadro resumo de áreas [não fiz]
 
 MÓDULO 31
 ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ILUMINAÇÃO 
-	
-31.2: Pav. Térreo - Luminárias de Embutir		
-31.3: Pav. Térreo - Luminárias de Sobrepor		
-31.4: Pav. Térreo - Pendentes e Arandelas		
-31.5: Pav. Térreo - Iluminação Indireta Estar		
-31.6: Pav. Térreo - Iluminação Indireta Cozinha		
-31.7: Pav. Superior - Iluminação Embutida, de Sobrepor e Arandelas		
+
 31.8: Pav. Térreo - Inserindo iluminação externa - Parte I		
 31.9: Pav. Térreo - Inserindo iluminação externa - Parte II		
 31.10: Tabela de luminárias
@@ -38,11 +32,14 @@ ANTEPROJETO - LOCAÇÃO DOS PONTOS DE ELÉTRICA [preciso dos eixos dos pontos de
 32.7: Inserindo tomadas e interruptores III
 
 MÓDULO 33
-Aula 33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
+
+33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
 
 MÓDULO 34
-Aula 34.6: Lajes e forros (não fiz plantas de forro para tudo)
+
+34.6: Lajes e forros (não fiz plantas de forro para tudo)
 
 MÓDULO 35
-Aula 35.6: TAREFA DE CASA (Verificar interferenias nas platibandas cobertura superior, caixa d'água e do banho suíte master)
+
+35.6: TAREFA DE CASA (Verificar interferenias nas platibandas cobertura superior, caixa d'água e do banho suíte master)
 
