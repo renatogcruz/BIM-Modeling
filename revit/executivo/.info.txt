@@ -13,8 +13,6 @@ Aula 30.6: Configurando a legenda da prancha
 Aula 30.8: Criando o quadro resumo de áreas [não fiz]
 
 MÓDULO 32
-32.2: Inserindo pontos de iluminação I		
-32.3: Inserindo pontos de iluminação II		
 32.4: Inserindo pontos de iluminação III		
 32.5: Inserindo tomadas e interruptores I		
 32.6: Inserindo tomadas e interruptores II		
