@@ -12,12 +12,6 @@ Aula 30.5: Criando e inserindo a tabela de taxa de permeabilidade
 Aula 30.6: Configurando a legenda da prancha
 Aula 30.8: Criando o quadro resumo de áreas [não fiz]
 
-MÓDULO 32
-32.4: Inserindo pontos de iluminação III		
-32.5: Inserindo tomadas e interruptores I		
-32.6: Inserindo tomadas e interruptores II		
-32.7: Inserindo tomadas e interruptores III
-
 MÓDULO 33
 33.6: Configurando cortes AP/ESTR_ARQ (ajustar modelo de vista)
 
