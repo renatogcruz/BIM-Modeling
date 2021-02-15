@@ -95,6 +95,8 @@ Link [Youtube](https://www.youtube.com/watch?v=AH4o5CzBV5Y) - 1/1
 
 Link [curso](https://www.youtube.com/watch?v=ebeZTfWZWAU&list=PL8rA-u5AJ10-F3QMTraF0VxKYbxixOWNo)
 
+[Trabalhando com modelos IFC no Tekla Structures](https://www.youtube.com/watch?v=z-0t6RVnH7s)
+
 
 ## [IFC BUILDER](http://ifc-builder.en.cype.com/)
 
