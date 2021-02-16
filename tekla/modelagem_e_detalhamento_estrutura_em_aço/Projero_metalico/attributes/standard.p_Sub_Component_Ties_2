@@ -1,0 +1,10 @@
+Sub_Component_Ties_2_attributes.saveas_file "standard"
+Sub_Component_Ties_2_attributes.get_menu "< ExternalDesign >"
+Sub_Component_Ties_2_attributes.name_enable 0
+Sub_Component_Ties_2_attributes.ThirdHandle 0
+Sub_Component_Ties_2_attributes.AtDepthValue 0.000000
+Sub_Component_Ties_2_attributes.AtDepth 0
+Sub_Component_Ties_2_attributes.RotationValue -0.000000
+Sub_Component_Ties_2_attributes.Rotation 1
+Sub_Component_Ties_2_attributes.OnPlaneValue 0.000000
+Sub_Component_Ties_2_attributes.OnPlane 0

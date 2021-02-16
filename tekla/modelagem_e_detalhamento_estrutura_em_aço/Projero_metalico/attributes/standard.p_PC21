@@ -1,0 +1,10 @@
+PC21_attributes.saveas_file "standard"
+PC21_attributes.get_menu "standard"
+PC21_attributes.name_enable 0
+PC21_attributes.ThirdHandle 0
+PC21_attributes.AtDepthValue 0.000000
+PC21_attributes.AtDepth 0
+PC21_attributes.RotationValue 0.000000
+PC21_attributes.Rotation 3
+PC21_attributes.OnPlaneValue 0.000000
+PC21_attributes.OnPlane 0

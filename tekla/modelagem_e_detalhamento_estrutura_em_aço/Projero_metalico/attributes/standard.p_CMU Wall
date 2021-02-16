@@ -1,0 +1,16 @@
+CMU Wall_attributes.saveas_file "standard"
+CMU Wall_attributes.get_menu "standard"
+CMU Wall_attributes.name_enable 0
+CMU Wall_attributes.ThirdHandle 0
+CMU Wall_attributes.AtDepthValue 0.000000
+CMU Wall_attributes.AtDepth 1
+CMU Wall_attributes.RotationValue -0.000000
+CMU Wall_attributes.Rotation 1
+CMU Wall_attributes.OnPlaneValue 0.000000
+CMU Wall_attributes.OnPlane 0
+CMU Wall_attributes.P16 1
+CMU Wall_attributes.P13 "C90"
+CMU Wall_attributes.P12 "CMU_BLOCK_8"
+CMU Wall_attributes.P11 "CMU BLOCK"
+CMU Wall_attributes.P15 10.000000
+CMU Wall_attributes.P2 2440.000000

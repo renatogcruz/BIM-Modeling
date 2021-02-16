@@ -1,0 +1,10 @@
+PC26_attributes.saveas_file "standard"
+PC26_attributes.get_menu "standard"
+PC26_attributes.name_enable 0
+PC26_attributes.ThirdHandle 0
+PC26_attributes.AtDepthValue 0.000000
+PC26_attributes.AtDepth 0
+PC26_attributes.RotationValue 0.000000
+PC26_attributes.Rotation 3
+PC26_attributes.OnPlaneValue 0.000000
+PC26_attributes.OnPlane 0

@@ -1,0 +1,15 @@
+CMU End 2_attributes.saveas_file "standard"
+CMU End 2_attributes.get_menu "standard"
+CMU End 2_attributes.name_enable 0
+CMU End 2_attributes.ThirdHandle 0
+CMU End 2_attributes.AtDepthValue 9.530000
+CMU End 2_attributes.AtDepth 1
+CMU End 2_attributes.RotationValue -0.000000
+CMU End 2_attributes.Rotation 1
+CMU End 2_attributes.OnPlaneValue 0.000000
+CMU End 2_attributes.OnPlane 0
+CMU End 2_attributes.P7 1
+CMU End 2_attributes.P6 "C90"
+CMU End 2_attributes.P5 "CMU1/2_8"
+CMU End 2_attributes.P4 "HALF STRETCHER"
+CMU End 2_attributes.P1 2440.000000

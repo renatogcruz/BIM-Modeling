@@ -1,0 +1,17 @@
+joint_attributes.saveas_file "standard"
+joint_attributes.get_menu "standard"
+joint_attributes.name_enable 1
+joint_attributes.ThirdHandle 0
+joint_attributes.AtDepthValue 0.000000
+joint_attributes.AtDepth 0
+joint_attributes.RotationValue 0.000000
+joint_attributes.Rotation 1
+joint_attributes.OnPlaneValue 0.000000
+joint_attributes.OnPlane 0
+joint_attributes.P13 2.000000
+joint_attributes.P12 30.000000
+joint_attributes.P9 30.000000
+joint_attributes.P7 240.000000
+joint_attributes.P5 3.000000
+joint_attributes.P2 35.000000
+joint_attributes.P1 800.000000

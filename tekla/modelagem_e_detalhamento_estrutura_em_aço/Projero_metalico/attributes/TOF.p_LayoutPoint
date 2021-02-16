@@ -1,0 +1,11 @@
+joint_attributes.saveas_file "TOF"
+joint_attributes.get_menu "TOF"
+joint_attributes.name_enable 1
+joint_attributes.PointType 2
+joint_attributes.PointSize -2147483648.000000
+joint_attributes.IsFieldPoint 0
+joint_attributes.IsStakedoutPoint 0
+joint_attributes.PointClass 2
+joint_attributes.PointDescription ""
+joint_attributes.PointLabel "TOF"
+joint_attributes.PointGroupName "Footing"

@@ -1,0 +1,10 @@
+page("TeklaStructures","")
+{
+   macro(1, "GenericFormworkBrace")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Selection:", "Selection", integer, number, 1)
+       }
+   }
+}

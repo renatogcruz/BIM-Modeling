@@ -1,0 +1,8 @@
+joint_attributes.saveas_file "field"
+joint_attributes.get_menu "field"
+joint_attributes.name_enable 1
+joint_attributes.LineSize 25.400000
+joint_attributes.IsFieldLine 1
+joint_attributes.LineClass 3
+joint_attributes.LineLabel "New Field Line"
+joint_attributes.LineGroupName "Default"

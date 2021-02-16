@@ -1,0 +1,34 @@
+PC2_attributes.saveas_file "standard"
+PC2_attributes.get_menu "standard"
+PC2_attributes.name_enable 0
+PC2_attributes.ThirdHandle 0
+PC2_attributes.AtDepthValue 0.000000
+PC2_attributes.AtDepth 0
+PC2_attributes.RotationValue 0.000000
+PC2_attributes.Rotation 2
+PC2_attributes.OnPlaneValue 0.000000
+PC2_attributes.OnPlane 0
+PC2_attributes.P24 "PILE"
+PC2_attributes.P23 1
+PC2_attributes.P22 "PL"
+PC2_attributes.P21 8
+PC2_attributes.P20 ""
+PC2_attributes.P19 "3000"
+PC2_attributes.P18 "PILE"
+PC2_attributes.P17 "PILE CAP"
+PC2_attributes.P16 1
+PC2_attributes.P15 "PLC"
+PC2_attributes.P14 1
+PC2_attributes.P13 ""
+PC2_attributes.P12 "5000"
+PC2_attributes.P11 "PILE CAP"
+PC2_attributes.P6 9145.000000
+PC2_attributes.P5 150.000000
+PC2_attributes.P3 915.000000
+PC2_attributes.P10 0.000000
+PC2_attributes.P9 455.000000
+PC2_attributes.P8 0.000000
+PC2_attributes.P7 455.000000
+PC2_attributes.P2 915.000000
+PC2_attributes.P1 1830.000000
+PC2_attributes.P4 255.000000

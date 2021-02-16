@@ -1,0 +1,44 @@
+TITLE_OBJECT_GROUP 
+{
+    Version= 1.05 
+    Count= 3 
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        CoRebar.Group 
+        proCLASS 
+        albl_Class 
+        == 
+        albl_Equals 
+        100101 
+        0 
+        && 
+        }
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_bolt 
+        proBOLT_TYPE 
+        albl_Site__workshop 
+        == 
+        albl_Equals 
+        Workshop 
+        0 
+        && 
+        }
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_part 
+        proCLASS 
+        albl_Class 
+        == 
+        albl_Equals 
+        100101 
+        0 
+        && 
+        }
+    }

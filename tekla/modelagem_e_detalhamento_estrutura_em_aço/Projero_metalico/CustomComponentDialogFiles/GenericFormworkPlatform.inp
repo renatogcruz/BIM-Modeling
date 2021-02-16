@@ -1,0 +1,22 @@
+page("TeklaStructures","")
+{
+   macro(1, "GenericFormworkPlatform")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("BottNum", "BottNum", integer, number, 1)
+           parameter("BottHeight", "BottHeight", distance, number, 2)
+           parameter("SideHeight", "SideHeight", distance, number, 3)
+           parameter("SideWidth", "SideWidth", distance, number, 4)
+           parameter("SideZ1", "SideZ1", distance, number, 5)
+           parameter("SideZ2", "SideZ2", distance, number, 6)
+           parameter("SideZ3", "SideZ3", distance, number, 7)
+           parameter("SideNum", "SideNum", integer, number, 8)
+           parameter("PlatWidth", "PlatWidth", distance, number, 9)
+           parameter("SideDist", "SideDist", distance, number, 10)
+           parameter("Create bottom?", "CreateBottom", YesNo, number, 11)
+           parameter("Create side?", "CreateSide", YesNo, number, 12)
+           parameter("Bottom Gap", "BottGap", distance, number, 13)
+       }
+   }
+}

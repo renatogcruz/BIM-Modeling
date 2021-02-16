@@ -1,0 +1,11 @@
+Wedge Bolt_attributes.saveas_file "standard"
+Wedge Bolt_attributes.get_menu "standard"
+Wedge Bolt_attributes.name_enable 0
+Wedge Bolt_attributes.ThirdHandle 0
+Wedge Bolt_attributes.AtDepthValue -4.760000
+Wedge Bolt_attributes.AtDepth 0
+Wedge Bolt_attributes.RotationValue -0.000000
+Wedge Bolt_attributes.Rotation 1
+Wedge Bolt_attributes.OnPlaneValue 69.850000
+Wedge Bolt_attributes.OnPlane 0
+Wedge Bolt_attributes.P1 "300W"

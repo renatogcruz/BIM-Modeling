@@ -1,0 +1,24 @@
+page("TeklaStructures","")
+{
+   macro(1, "GenericFormworkBulkheadTimber")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Width", "FPT_Thickness0", distance, number, 1)
+           parameter("Height", "FPT_Height", distance, number, 2)
+           parameter("FPT_BulkHeadOffset", "FPT_BulkHeadOffset", distance, number, 3)
+           parameter("StudDim1", "StudDim1", distance, number, 4)
+           parameter("StudDim2", "StudDim2", distance, number, 5)
+           parameter("PlyThick", "PlyThick", distance, number, 6)
+           parameter("Create Studs?", "CreateStuds", YesNo, number, 7)
+           parameter("Use bulkhead offset?", "UseBHOffset", YesNo, number, 8)
+           parameter("Number of studs (2, 3 or 4)", "Number_Studs", integer, number, 9)
+           parameter("Stud name", "StudName", string, text, 10)
+           parameter("Stud class", "StudClass", integer, number, 11)
+           parameter("Ply name", "PlyName", string, text, 12)
+           parameter("Ply class", "PlyClass", integer, number, 13)
+           parameter("Stud material", "StudMaterial", material, text, 14)
+           parameter("Ply material", "PlyMaterial", material, text, 15)
+       }
+   }
+}

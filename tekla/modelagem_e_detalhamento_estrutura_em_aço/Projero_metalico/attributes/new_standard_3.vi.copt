@@ -1,0 +1,23 @@
+TITLE_CLASSIFIER
+{
+    Version= 1.00
+    Count= 3
+    SECTION_CLASSIFIER_GROUP
+    {
+        albl_Part
+        new_class100filter
+        new_class100
+        }
+    SECTION_CLASSIFIER_GROUP
+    {
+        albl_Rebar
+        new_class100filter
+        new_class100
+        }
+    SECTION_CLASSIFIER_GROUP
+    {
+        albl_Reinforcement_mark
+        new_class100filter
+        new_class100
+        }
+    }

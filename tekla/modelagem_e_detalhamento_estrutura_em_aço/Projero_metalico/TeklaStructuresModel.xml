@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TeklaStructuresModels>
+<TeklaStructuresModels>
+    <Model>
+        <Name>Projero_metalico</Name>
+        <Designer>PROJETISTA</Designer>
+        <Description></Description>
+        <Version>2020 Service Pack 3</Version>
+        <ProductVersion>2020.0</ProductVersion>
+        <Language>enu</Language>
+        <Template></Template>
+        <Environment>brazil</Environment>
+        <IsTemplate>FALSE</IsTemplate>
+        <XS_PROJECT></XS_PROJECT>
+        <XS_FIRM></XS_FIRM>
+        <XS_SYSTEM>C:\ProgramData\Trimble\Tekla Structures\2020.0\\environments\brazil\Precast\model_settings\;C:\ProgramData\Trimble\Tekla Structures\2020.0\\environments\brazil\Precast\reports\;C:\ProgramData\Trimble\Tekla Structures\2020.0\\environments\brazil\Cast-in-Pl</XS_SYSTEM>
+        <ConnectedId></ConnectedId>
+    </Model>
+</TeklaStructuresModels>

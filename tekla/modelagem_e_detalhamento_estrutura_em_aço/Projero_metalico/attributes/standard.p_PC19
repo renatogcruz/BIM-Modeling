@@ -1,0 +1,10 @@
+PC19_attributes.saveas_file "standard"
+PC19_attributes.get_menu "standard"
+PC19_attributes.name_enable 0
+PC19_attributes.ThirdHandle 0
+PC19_attributes.AtDepthValue 0.000000
+PC19_attributes.AtDepth 0
+PC19_attributes.RotationValue 0.000000
+PC19_attributes.Rotation 3
+PC19_attributes.OnPlaneValue 0.000000
+PC19_attributes.OnPlane 0

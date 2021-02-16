@@ -1,0 +1,10 @@
+joint_attributes.saveas_file "standard"
+joint_attributes.get_menu "standard"
+joint_attributes.name_enable 1
+joint_attributes.PointType 0
+joint_attributes.PointSize 152.400000
+joint_attributes.IsFieldPoint 0
+joint_attributes.IsStakedoutPoint 0
+joint_attributes.PointClass 2
+joint_attributes.PointLabel "New point"
+joint_attributes.PointGroupName "Default"

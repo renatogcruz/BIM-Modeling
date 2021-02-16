@@ -1,0 +1,15 @@
+page("TeklaStructures","")
+{
+   macro(1, "GenericFormworkBeam")
+   {
+       tab_page("", " Parameters 1 ", 1)
+       {
+           parameter("Length:", "BeamLength", distance, number, 1)
+           parameter("Width:", "BeamWidth", distance, number, 2)
+           parameter("Height:", "BeamHeight", distance, number, 3)
+           parameter("Name:", "BeamName", string, text, 4)
+           parameter("Class:", "BeamClass", integer, number, 5)
+           parameter("Define by Handles:", "HandleOption", integer, number, 6)
+       }
+   }
+}
