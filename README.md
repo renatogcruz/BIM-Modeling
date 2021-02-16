@@ -89,9 +89,9 @@ Link [Youtube](https://www.youtube.com/watch?v=AH4o5CzBV5Y) - 1/1
 
 ## [TEKLA BIM](https://www.tekla.com/us/tekla-structures-steel-evaluation)
 
-[Tekla BIM - Estruturas Metálicas]() - 1/15
+[Tekla BIM - Estruturas Metálicas](https://github.com/renatogcruz/BIM-Modeling/tree/master/tekla/Estrutura_metalica/Modelo_estruturas_metalicas_BIM) - 1/15
 
-[Modelagem e Detalhamento com Tekla Structures]() - 1/17
+[Modelagem e Detalhamento com Tekla Structures](https://github.com/renatogcruz/BIM-Modeling/tree/master/tekla/modelagem_e_detalhamento_estrutura_em_a%C3%A7o/Projero_metalico) - 1/17
 
 Link [curso](https://www.youtube.com/watch?v=ebeZTfWZWAU&list=PL8rA-u5AJ10-F3QMTraF0VxKYbxixOWNo)
 
