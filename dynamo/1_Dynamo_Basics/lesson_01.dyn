@@ -2230,6 +2230,202 @@
       ],
       "Replication": "Disabled",
       "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Nodes.DSModelElementsSelection, DSRevitNodesUI",
+      "NodeType": "ExtensionNode",
+      "InstanceId": [
+        "6701d32c-5517-4946-86b8-b202f5a4804b-00110b93",
+        "6701d32c-5517-4946-86b8-b202f5a4804b-00110bb0",
+        "6701d32c-5517-4946-86b8-b202f5a4804b-00110bf0",
+        "6701d32c-5517-4946-86b8-b202f5a4804b-00110c15",
+        "6701d32c-5517-4946-86b8-b202f5a4804b-00110c66",
+        "6701d32c-5517-4946-86b8-b202f5a4804b-00110c91",
+        "6701d32c-5517-4946-86b8-b202f5a4804b-00110ca0",
+        "6701d32c-5517-4946-86b8-b202f5a4804b-00110cd3"
+      ],
+      "Id": "ce8d6bb4c71143c0a0616ddf43a351b9",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "3756afefb50f47eca3a412d60ebf62cf",
+          "Name": "Elements",
+          "Description": "The selected elements.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.Curves",
+      "Id": "208b82de63224e48b8b0b96e2af80c1d",
+      "Inputs": [
+        {
+          "Id": "6fc0b4e54390457a9678e935e13446a3",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "973a8d65819b46f8be0c10d9d4454949",
+          "Name": "Curve[]",
+          "Description": "Curve[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "The Curves in this Element\n\nElement.Curves: Curve[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "DSCore.List.Flatten@var[]..[],int",
+      "Id": "8c9e3933099c40d6856b172b76bb4be1",
+      "Inputs": [
+        {
+          "Id": "d04e5976fe6d4c56bd39fa647a3f0870",
+          "Name": "list",
+          "Description": "List to flatten.\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "f0abff2a05814727ad493b4859c97f06",
+          "Name": "amt",
+          "Description": "Layers of nesting to remove.\n\nint\nDefault value : -1",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "161ccafcaee34f6eb5ccc0f315d9c92b",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Flattens a nested list of lists by a certain amount.\n\nList.Flatten (list: var[]..[], amt: int = -1): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Autodesk.DesignScript.Geometry.PolyCurve.ByJoinedCurves@Autodesk.DesignScript.Geometry.Curve[],double",
+      "Id": "ef26063df8bd46988c44e8e0b2b2085f",
+      "Inputs": [
+        {
+          "Id": "93b7bd49e545484b83a66ade758db146",
+          "Name": "curves",
+          "Description": "Curves to join into polycurve\n\nCurve[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "5490072a93784bd19e2626f60dc8886e",
+          "Name": "joinTolerance",
+          "Description": "Tolerance to determine size of gap allowed between curves to be joined\n\ndouble\nDefault value : 0.001",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "dc961261dc0e472d9d77d1be2fb2cedb",
+          "Name": "PolyCurve",
+          "Description": "PolyCurve",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Make PolyCurve by joining curves. Flips curve as needed for connectivity. Choose a preferred join tolerance between 1e-6 and 1e-3 units.\n\nPolyCurve.ByJoinedCurves (curves: Curve[], joinTolerance: double = 0.001): PolyCurve"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Autodesk.DesignScript.Geometry.PolyCurve.BasePlane",
+      "Id": "66ed7181d9264fc5b8ad5e63eb65f9c1",
+      "Inputs": [
+        {
+          "Id": "3c7a3a545f0046db937595fbed01de61",
+          "Name": "polyCurve",
+          "Description": "Autodesk.DesignScript.Geometry.PolyCurve",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "ddceaf8f6c8a44688886580bcf5fd871",
+          "Name": "Plane",
+          "Description": "Plane",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Returns plane of planar polycurve\n\nPolyCurve.BasePlane ( ): Plane"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Autodesk.DesignScript.Geometry.Plane.ToCoordinateSystem",
+      "Id": "3b4521503d224e2b977f74b4888bf176",
+      "Inputs": [
+        {
+          "Id": "369be616d7374fafb2287f25f233f26f",
+          "Name": "plane",
+          "Description": "Autodesk.DesignScript.Geometry.Plane",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "d46e0cf153d84c8d9f76919a8258f359",
+          "Name": "CoordinateSystem",
+          "Description": "CoordinateSystem",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Produces a new CoordinateSystem representing this plane. It is based on the origin, and X and Y axis basis.\n\nPlane.ToCoordinateSystem ( ): CoordinateSystem"
     }
   ],
   "Connectors": [
@@ -2557,6 +2753,31 @@
       "Start": "24d8af0cab3343d28310ca3d7a206548",
       "End": "6f052b988d164de092bdc2b36689ec4c",
       "Id": "15afdb7bb09f4dcd923b1a6697c89b1a"
+    },
+    {
+      "Start": "3756afefb50f47eca3a412d60ebf62cf",
+      "End": "6fc0b4e54390457a9678e935e13446a3",
+      "Id": "1e2a4ec539484fefad8726ec0d446481"
+    },
+    {
+      "Start": "973a8d65819b46f8be0c10d9d4454949",
+      "End": "d04e5976fe6d4c56bd39fa647a3f0870",
+      "Id": "bb320c8b669d4a56b6fa7c5ed5cbfb92"
+    },
+    {
+      "Start": "161ccafcaee34f6eb5ccc0f315d9c92b",
+      "End": "93b7bd49e545484b83a66ade758db146",
+      "Id": "339c10e698074949bfd69816dafb3dd4"
+    },
+    {
+      "Start": "dc961261dc0e472d9d77d1be2fb2cedb",
+      "End": "3c7a3a545f0046db937595fbed01de61",
+      "Id": "984c5eef71194b2ab5d8e1692b2a8ed3"
+    },
+    {
+      "Start": "ddceaf8f6c8a44688886580bcf5fd871",
+      "End": "369be616d7374fafb2287f25f233f26f",
+      "Id": "0ac01f5bb5de4cefb91b28e786c6be8e"
     }
   ],
   "Dependencies": [
@@ -2575,656 +2796,716 @@
     },
     "Camera": {
       "Name": "Background Preview",
-      "EyeX": 381.12663269785128,
-      "EyeY": 85.02571876712318,
-      "EyeZ": -57.929715077527931,
-      "LookX": -234.62974045288712,
-      "LookY": -209.08969927169659,
-      "LookZ": 249.94821553304996,
+      "EyeX": 41.840113787315047,
+      "EyeY": 30.291856036480524,
+      "EyeZ": -25.879930932966644,
+      "LookX": -90.482490215323551,
+      "LookY": -80.633242111415527,
+      "LookZ": 96.38989892182056,
       "UpX": -0.22282269937693336,
       "UpY": 0.945518575599325,
       "UpZ": 0.23737031794017077
     },
     "NodeViews": [
       {
+        "ShowGeometry": false,
+        "Name": "Point.ByCoordinates",
         "Id": "703041b0e52846b2a78f011961f71879",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Point.ByCoordinates",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -329.36212031262795,
         "Y": -375.31065615498551
       },
       {
+        "ShowGeometry": true,
+        "Name": "Number Slider",
         "Id": "35746b0fb6ce4dccb0d2f0ebd0cb2629",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Number Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -689.62548113600133,
         "Y": -367.81514626757354
       },
       {
+        "ShowGeometry": true,
+        "Name": "Integer Slider",
         "Id": "6e69428255ba423e8e27bd85efa5cc8c",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Integer Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -683.31117174091514,
         "Y": -209.55887891508104
       },
       {
+        "ShowGeometry": true,
+        "Name": "Integer Slider",
         "Id": "238c2effbd6b4711b8127e564e0cd62c",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Integer Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -684.99980685225023,
         "Y": -142.03392741308556
       },
       {
+        "ShowGeometry": false,
+        "Name": "Point.ByCoordinates",
         "Id": "cd771c9e46b04ce6ab55abfda87b3cb8",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Point.ByCoordinates",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -329.03190874521755,
         "Y": -210.65338445746141
       },
       {
+        "ShowGeometry": false,
+        "Name": "Line.ByStartPointEndPoint",
         "Id": "ea04ee26d8f5494899eadea24fd6e3f7",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Line.ByStartPointEndPoint",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -22.694580407142666,
         "Y": -245.94621023868643
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "f8a3220dba4d48708215c98cf8c7812a",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -241.87147903380105,
         "Y": 52.741156334500431
       },
       {
+        "ShowGeometry": true,
+        "Name": "Integer Slider",
         "Id": "0281398c464e46d49f4874fb9ab34bb1",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Integer Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -579.481350150078,
         "Y": 47.443059133212955
       },
       {
+        "ShowGeometry": false,
+        "Name": "Point.ByCoordinates",
         "Id": "03b221040b20430296dc2026a678f7d8",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Point.ByCoordinates",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -295.46386265057743,
         "Y": 235.86340167190343
       },
       {
+        "ShowGeometry": true,
+        "Name": "Range",
         "Id": "af2c609e7ad54055ba8185b955b60ae8",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Range",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -570.69607168115067,
         "Y": 237.3349472547294
       },
       {
+        "ShowGeometry": true,
+        "Name": "Code Block",
         "Id": "241ebec9c796446aba57ae261794a787",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -571.64330798282947,
         "Y": 409.15030726746278
       },
       {
+        "ShowGeometry": true,
+        "Name": "Code Block",
         "Id": "c90a347acb8a48f8929d4fc59b51226a",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -569.67402116762617,
         "Y": 499.7036119603564
       },
       {
+        "ShowGeometry": true,
+        "Name": "Code Block",
         "Id": "62828dbb7a35465bb5b628dd8960414a",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -686.34910367589146,
         "Y": 499.51227648454892
       },
       {
+        "ShowGeometry": true,
+        "Name": "Code Block",
         "Id": "b0333dc6cb4b4c93a167ed137880e8b4",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -568.55411131613482,
         "Y": 626.56429920206449
       },
       {
+        "ShowGeometry": true,
+        "Name": "Code Block",
         "Id": "bfa23e076699469580c1a0724832c076",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -690.77708527913364,
         "Y": 625.31616570595656
       },
       {
+        "ShowGeometry": true,
+        "Name": "Code Block",
         "Id": "acc0dc5015cf4bc1be33ee5c7ddfd166",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 6.6860154937372727,
         "Y": 242.23573335185677
       },
       {
+        "ShowGeometry": true,
+        "Name": "Code Block",
         "Id": "3636f272ba9d485fb315cdf9783b58ca",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": -121.44243920996678,
         "Y": 242.63691409667445
       },
       {
+        "ShowGeometry": false,
+        "Name": "Point.ByCoordinates",
         "Id": "87c5bd19fe574322870cd96c111a6728",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Point.ByCoordinates",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 263.02145531792348,
         "Y": 238.15645460673562
       },
       {
+        "ShowGeometry": true,
+        "Name": "Math.Sin",
         "Id": "4c891a5d44cb49f09a43966bcf2a1bbf",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Math.Sin",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 45.832052513760118,
         "Y": 373.5602766800431
       },
       {
+        "ShowGeometry": true,
+        "Name": "Code Block",
         "Id": "46e9cc9357e54ad48d5d6a02c9ed78a5",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 49.378537632880125,
         "Y": 454.56949325272103
       },
       {
+        "ShowGeometry": true,
+        "Name": "*",
         "Id": "98a4e0fd5bf84c2d9d01e4457c4513f1",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "*",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 249.28092900765569,
         "Y": 423.64000012469444
       },
       {
+        "ShowGeometry": false,
+        "Name": "Integer Slider",
         "Id": "6fab155d976e4418a84ad1e48626b634",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Integer Slider",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -690.92428417263477,
         "Y": 872.9532074130035
       },
       {
+        "ShowGeometry": false,
+        "Name": "LineByPoint",
         "Id": "ea21c3c4cda2428ba18b68df83a7d5a3",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "LineByPoint",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -324.93698306077067,
         "Y": 874.55721473786343
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "39849d81d1f84ebfb24aa808ead54599",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -696.33792918801009,
         "Y": 1220.2999221565408
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "bc7e7f6df3f44bb69aa8fde3cae122d1",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -694.42825504855125,
         "Y": 1348.977175543755
       },
       {
+        "ShowGeometry": false,
+        "Name": "Point.ByCoordinates",
         "Id": "ecb1b2bab63d4b7a9bc5bb5b359ce3b4",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Point.ByCoordinates",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -492.83906877111781,
         "Y": 1208.7278625320282
       },
       {
+        "ShowGeometry": false,
+        "Name": "Point.ByCoordinates",
         "Id": "1d11a44e7ca84d599ded16853294ef5e",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Point.ByCoordinates",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -495.14820485084124,
         "Y": 1344.4551603540967
       },
       {
+        "ShowGeometry": false,
+        "Name": "Line.ByStartPointEndPoint",
         "Id": "6302f83633704460903dcfd54c655fe4",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Line.ByStartPointEndPoint",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -219.91947630729555,
         "Y": 1205.6724317716748
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "e8934427fcb04b48b6b0fe39b1fa1978",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 75.590075270524267,
         "Y": 1270.3367269529283
       },
       {
+        "ShowGeometry": false,
+        "Name": "List Create",
         "Id": "8b1491b269b04a38971f4face9bd0e3b",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "List Create",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 193.45640120835651,
         "Y": 1258.5005643388749
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "965cdce4676d439fb884a51551fbb563",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -654.01546134164244,
         "Y": 1581.225099353836
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "f69975a4cdc04b7a8a0516963d1ef936",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -520.32993298344581,
         "Y": 1579.8274930285229
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "e27041a0c14e441f80ac4deadc4791cf",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -311.70975918854,
         "Y": 1502.7528957093973
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "686edfed6d2d4f148eff3799a447fe8e",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -312.69458626603085,
         "Y": 1606.6310215970798
       },
       {
+        "ShowGeometry": false,
+        "Name": "*",
         "Id": "2f3afbd931194a6d8a9b9d60383aa3cb",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "*",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -150.05369734888183,
         "Y": 1504.5032480182122
       },
       {
+        "ShowGeometry": false,
+        "Name": "*",
         "Id": "1e58e1d2a20a4f6abbe3d67b4c655d23",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "*",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -155.14654630725096,
         "Y": 1714.1089461971944
       },
       {
+        "ShowGeometry": false,
+        "Name": "*",
         "Id": "fafb691f1d554a828d0c8c98d74a1983",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "*",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 47.281087325389763,
         "Y": 1502.3589533665211
       },
       {
+        "ShowGeometry": false,
+        "Name": "List Create",
         "Id": "0c6a5ca37405480b900e0077c1321c68",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "List Create",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": -298.6493614822956,
         "Y": 1370.7561417913189
       },
       {
+        "ShowGeometry": false,
+        "Name": "List.Flatten",
         "Id": "6edd7527e0584a90bbcb9dbedad98fa0",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "List.Flatten",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 411.44967165394416,
         "Y": 1120.5450244005422
       },
       {
+        "ShowGeometry": false,
+        "Name": "List.Sort",
         "Id": "d235d54bfc0d40a780a63506eecfa857",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "List.Sort",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 459.02206187277477,
         "Y": 1731.8810560451909
       },
       {
+        "ShowGeometry": false,
+        "Name": "List.Sort",
         "Id": "889ecf83134c4402bdea281935669444",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "List.Sort",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 452.55487164323654,
         "Y": 1447.954007317466
       },
       {
+        "ShowGeometry": false,
+        "Name": "List.SortByKey",
         "Id": "d7457233b4e44556aef5b681d61ce43d",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "List.SortByKey",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 1003.6879864030766,
         "Y": 1151.1618114195271
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "f3a130fc70d546d0afae846756f023e9",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 658.52743253643928,
         "Y": 1155.182151117582
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "f7b0a754a790468680fdb356b918a958",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 824.08046646261766,
         "Y": 1243.8090709329451
       },
       {
+        "ShowGeometry": false,
+        "Name": "Curve.Length",
         "Id": "9942edf957d74c02bb11615c32194f12",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Curve.Length",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 733.33759078002345,
         "Y": 1506.9081434985403
       },
       {
+        "ShowGeometry": false,
+        "Name": "List.SortByKey",
         "Id": "1e5c43fbe199411cae4d5ded47f55ed9",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "List.SortByKey",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 985.66534839675865,
         "Y": 1482.3877984867377
       },
       {
+        "ShowGeometry": false,
+        "Name": "Plane.ByOriginNormal",
         "Id": "788a558769b64887b51dd507dbc84fd3",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Plane.ByOriginNormal",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 1739.2864658182905,
         "Y": 1417.2108640858439
       },
       {
+        "ShowGeometry": false,
+        "Name": "Vector.ByCoordinates",
         "Id": "7cf50624d3934d92a9311af270958777",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Vector.ByCoordinates",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 1764.9636600378535,
         "Y": 1210.0674881961831
       },
       {
+        "ShowGeometry": true,
+        "Name": "Number Slider",
         "Id": "982af6446a6c4e3e91189f5d9c874c2a",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Number Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 1311.6253611978427,
         "Y": 1206.2709070106509
       },
       {
+        "ShowGeometry": true,
+        "Name": "Number Slider",
         "Id": "d6a3d323a49c4d4fa3f1612de6d9c18e",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Number Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 1312.5228561229114,
         "Y": 1263.8123581665757
       },
       {
+        "ShowGeometry": true,
+        "Name": "Number Slider",
         "Id": "84cce63f5a784ab9afdc02f052e43c72",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Number Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 1310.5483121420748,
         "Y": 1322.907988488007
       },
       {
+        "ShowGeometry": false,
+        "Name": "Circle.ByPlaneRadius",
         "Id": "82fc1cbfc2534003a6664cc4ebe18492",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Circle.ByPlaneRadius",
-        "ShowGeometry": false,
         "Excluded": false,
         "X": 1746.3809951451735,
         "Y": 1589.8804215018483
       },
       {
+        "ShowGeometry": true,
+        "Name": "Number Slider",
         "Id": "4354155aa63a4c1bb0711b618d2a942a",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Number Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 1323.041253916726,
         "Y": 1613.8090850589776
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "3d6e266703c545cab6aad67450f02ca3",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 2470.4165750381808,
         "Y": 1217.2021678652056
       },
       {
+        "ShowGeometry": false,
+        "Name": "Number Slider",
         "Id": "89d9e73422ec469d85343131c3707ff0",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Number Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 2031.1823354214202,
         "Y": 1219.7035918134336
       },
       {
+        "ShowGeometry": false,
+        "Name": "Number Slider",
         "Id": "e949c2c29bdb4fa48a344eca4fb6468b",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Number Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 2032.0528614378186,
         "Y": 1285.1856009567523
       },
       {
+        "ShowGeometry": false,
+        "Name": "Number Slider",
         "Id": "fd84e445f08040cf82c93caf25a0c6aa",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Number Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 2032.2501049682546,
         "Y": 1356.6756188112904
       },
       {
+        "ShowGeometry": false,
+        "Name": "Point.ByCoordinates",
         "Id": "58afcc248fcd412cbf7bff7d615a044f",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Point.ByCoordinates",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 2822.5626627255715,
         "Y": 1200.5013445748179
       },
       {
+        "ShowGeometry": false,
+        "Name": "NurbsCurve.ByControlPoints",
         "Id": "80f7058df2904ed9b4adb3f8faa09278",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "NurbsCurve.ByControlPoints",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 3042.79018120936,
         "Y": 1198.9867782214274
       },
       {
+        "ShowGeometry": false,
+        "Name": "Curve.PlaneAtParameter",
         "Id": "aca05636d4c043378cd209261e83effc",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Curve.PlaneAtParameter",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 2843.8635361440543,
         "Y": 1414.7532230196448
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "19bd6a4d6c6d4af5a6cbe5f633092b8b",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 2425.2651901130234,
         "Y": 1446.4469519548188
       },
       {
+        "ShowGeometry": false,
+        "Name": "Number Slider",
         "Id": "57409c0b589342ceaa15747c317869b9",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Number Slider",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 2026.6870639959925,
         "Y": 1443.6911163445786
       },
       {
+        "ShowGeometry": false,
+        "Name": "Circle.ByPlaneRadius",
         "Id": "2f459684cde84a7998ed26a94fd3f7d7",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Circle.ByPlaneRadius",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 3181.3355446982882,
         "Y": 1413.0098165750258
       },
       {
+        "ShowGeometry": false,
+        "Name": "Code Block",
         "Id": "897b2c029a494b98b3a642dfaa91f65b",
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
-        "Name": "Code Block",
-        "ShowGeometry": true,
         "Excluded": false,
         "X": 2864.0,
         "Y": 1544.0
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Select Model Elements",
+        "Id": "ce8d6bb4c71143c0a0616ddf43a351b9",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -694.17600563162091,
+        "Y": 1920.7652779610776
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Element.Curves",
+        "Id": "208b82de63224e48b8b0b96e2af80c1d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -364.50641316629583,
+        "Y": 1920.4925943119913
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "List.Flatten",
+        "Id": "8c9e3933099c40d6856b172b76bb4be1",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -90.599756110717863,
+        "Y": 1920.4093546721315
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "PolyCurve.ByJoinedCurves",
+        "Id": "ef26063df8bd46988c44e8e0b2b2085f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 211.80125116872625,
+        "Y": 1918.1967391393694
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "PolyCurve.BasePlane",
+        "Id": "66ed7181d9264fc5b8ad5e63eb65f9c1",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 437.02006969472961,
+        "Y": 2179.0786904934257
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Plane.ToCoordinateSystem",
+        "Id": "3b4521503d224e2b977f74b4888bf176",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 654.45684324578281,
+        "Y": 2078.8495297670352
       }
     ],
     "Annotations": [
@@ -3391,7 +3672,28 @@
         "Height": 491.01322177857264,
         "FontSize": 36.0,
         "InitialTop": 1198.9867782214274,
-        "InitialHeight": 468.01322177857264,
+        "InitialHeight": 490.01322177857264,
+        "TextblockHeight": 43.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "eabaa5d471f240b0b4510eb7d8ae6bb1",
+        "Title": "Aula 4 ",
+        "Nodes": [
+          "ce8d6bb4c71143c0a0616ddf43a351b9",
+          "208b82de63224e48b8b0b96e2af80c1d",
+          "8c9e3933099c40d6856b172b76bb4be1",
+          "ef26063df8bd46988c44e8e0b2b2085f",
+          "66ed7181d9264fc5b8ad5e63eb65f9c1",
+          "3b4521503d224e2b977f74b4888bf176"
+        ],
+        "Left": -704.17600563162091,
+        "Top": 1865.1967391393694,
+        "Width": 1632.6328488774038,
+        "Height": 406.88195135405635,
+        "FontSize": 36.0,
+        "InitialTop": 1918.1967391393694,
+        "InitialHeight": 383.88195135405658,
         "TextblockHeight": 43.0,
         "Background": "#FFC1D676"
       },
@@ -3494,8 +3796,8 @@
         "Background": "#FFC1D676"
       }
     ],
-    "X": -220.07177880680331,
-    "Y": -220.0281652154888,
-    "Zoom": 0.31001448869998433
+    "X": 375.62178696964361,
+    "Y": -747.4734621007932,
+    "Zoom": 0.51025502830685165
   }
 }
