@@ -4,7 +4,7 @@
 
 Breve introdução ao Blender Bim
 
-![](blenderBIM.png)
+![](breve-introducao-blender-bim/blenderBIM.png)
 
 My first BIM project
 
