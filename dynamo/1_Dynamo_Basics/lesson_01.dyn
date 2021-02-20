@@ -2426,6 +2426,26 @@
       ],
       "Replication": "Auto",
       "Description": "Produces a new CoordinateSystem representing this plane. It is based on the origin, and X and Y axis basis.\n\nPlane.ToCoordinateSystem ( ): CoordinateSystem"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "",
+      "Id": "36c3b842b0314af5b4f59e643f89a7ef",
+      "Inputs": [],
+      "Outputs": [],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "",
+      "Id": "0c2c8253d97049d9a4d57dd6ed845edf",
+      "Inputs": [],
+      "Outputs": [],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
     }
   ],
   "Connectors": [
@@ -3506,6 +3526,26 @@
         "Excluded": false,
         "X": 654.45684324578281,
         "Y": 2078.8495297670352
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "36c3b842b0314af5b4f59e643f89a7ef",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -685.97496552229393,
+        "Y": 2378.7000693846717
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "0c2c8253d97049d9a4d57dd6ed845edf",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -514.0,
+        "Y": 2304.0
       }
     ],
     "Annotations": [
@@ -3698,6 +3738,22 @@
         "Background": "#FFC1D676"
       },
       {
+        "Id": "8022df0b6af04d749f78ad916d84005d",
+        "Title": "Aula 5",
+        "Nodes": [
+          "36c3b842b0314af5b4f59e643f89a7ef"
+        ],
+        "Left": -695.97496552229393,
+        "Top": 2325.7000693846717,
+        "Width": 185.0,
+        "Height": 146.0,
+        "FontSize": 36.0,
+        "InitialTop": 2378.7000693846717,
+        "InitialHeight": 123.0,
+        "TextblockHeight": 43.0,
+        "Background": "#FFC1D676"
+      },
+      {
         "Id": "5992b279755b4dd5b527f726856aa440",
         "Title": "Design Script language",
         "Nodes": [],
@@ -3796,8 +3852,8 @@
         "Background": "#FFC1D676"
       }
     ],
-    "X": 375.62178696964361,
-    "Y": -747.4734621007932,
-    "Zoom": 0.51025502830685165
+    "X": 654.97765987911828,
+    "Y": -1503.1693202535719,
+    "Zoom": 0.80562658101547746
   }
 }
