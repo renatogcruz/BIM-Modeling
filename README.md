@@ -52,6 +52,10 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 Link [Youtube](https://www.youtube.com/watch?v=AH4o5CzBV5Y) - 1/1
 
+[Tópicos de Open BIM - BlenderBIM Add On]()
+
+Link [YouTube](https://www.youtube.com/watch?v=fKIuYu0-hVk) - 1/1
+
 [Intro to Blender for Architectural Design](https://www.youtube.com/watch?v=FCrqygFtTp8&list=PLJThqQUeIsPT2yzXVM1JAvAEYE6LZx264) - 1/6
 
 ## [SVERCHOK](https://github.com/nortikin/sverchok/)
