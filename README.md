@@ -131,17 +131,18 @@ Link [curso](https://www.youtube.com/watch?v=ebeZTfWZWAU&list=PL8rA-u5AJ10-F3QMT
 
 [Dynamo Package Manager](https://dynamopackages.com/)
 
+##### Ferramenta de otimização para Dynamo/Revit
+
+[Optimo]()
+
+O Optimo é uma ferramenta de otimização multiobjetivos BPOpt (*Performance Optimization*) baseada em BIM para Dynamo. O Optimo foi desenvolvido com base no código-fonte aberto jmetal.NET, criado originalmente por [Antonio J. Nebro](https://github.com/mrahmaniasl/Optimo).
+
 ## Revit plugins
 
 [Revit plugins](https://www.youtube.com/watch?v=ly-rkEs2TRE&list=PLdGxhdaseXEAEawca6yz8s1BHR2Iu2pHN) - 1/26
 
 - Tutoriais Dynamo + Python
 
-## FERRAMENTA DE OTIMIZAÇÃO PARA BIM
-
-1. [Optimo](https://github.com/renatogcruz/Evolutionary-computing/tree/master/optimo_optimization_revit)
-
-O Optimo é uma ferramenta de otimização multiobjetivos BPOpt (*Performance Optimization*) baseada em BIM para Dynamo. O Optimo foi desenvolvido com base no código-fonte aberto jmetal.NET, criado originalmente por Antonio J. Nebro.
 
 ## FERRAMENTA BIM PARA INTERFACE GRASSHOPPER x REVIT
 
