@@ -32,6 +32,8 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 10 - [FreeCAD UH Studio](https://www.youtube.com/watch?v=9EzxiwjKzTQ&list=PLJThqQUeIsPTw-SQeY595Kpz_xQeZxz4o) - 1/7
 
+11 - [FreeCAD CNC series](https://www.youtube.com/watch?v=TqenXfqva5c&list=PLv0-xtVevCmdZQWHQgTcFnqIv_zEr77LO)
+
 - Tutoriais Freecad + Python
 
 11 - [Python scripting tutorial](https://www.freecadweb.org/wiki/index.php?title=Introduction_to_Python) - forum freecadweb
@@ -57,6 +59,8 @@ Link [Youtube](https://www.youtube.com/watch?v=AH4o5CzBV5Y) - 1/1
 4 - Link [YouTube](https://www.youtube.com/watch?v=fKIuYu0-hVk) - 1/1
 
 5 - [Intro to Blender for Architectural Design](https://www.youtube.com/watch?v=FCrqygFtTp8&list=PLJThqQUeIsPT2yzXVM1JAvAEYE6LZx264) - 1/6
+
+6 - [Topologise Blender add-on](https://www.youtube.com/channel/UC0WejI42NbQz3SqNfmdORIQ)
 
 ## [SVERCHOK](https://github.com/nortikin/sverchok/)
 
