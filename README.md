@@ -34,11 +34,13 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 11 - [FreeCAD CNC series](https://www.youtube.com/watch?v=TqenXfqva5c&list=PLv0-xtVevCmdZQWHQgTcFnqIv_zEr77LO)
 
+12 - [Modelo técnico Construtora htw saar](https://github.com/renatogcruz/BIM-Modeling/tree/master/freecad/Modelo_tecnico_com_FreeCAD_construtora_htw_saar) - Video [1](https://www.youtube.com/watch?v=Qe-vXRtKql4) e [2](https://www.youtube.com/watch?v=iarSNPBKkfo)
+
 - Tutoriais Freecad + Python
 
-11 - [Python scripting tutorial](https://www.freecadweb.org/wiki/index.php?title=Introduction_to_Python) - forum freecadweb
+1 - [Python scripting tutorial](https://www.freecadweb.org/wiki/index.php?title=Introduction_to_Python) - forum freecadweb
 
-12 - [Scripting examples](https://www.freecadweb.org/wiki/index.php?title=Scripting_examples) - forum freecadweb
+2 - [Scripting examples](https://www.freecadweb.org/wiki/index.php?title=Scripting_examples) - forum freecadweb
 
 - Freecad + Dynamo
 
