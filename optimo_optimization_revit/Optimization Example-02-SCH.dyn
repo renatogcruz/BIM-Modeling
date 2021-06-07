@@ -1,0 +1,102 @@
+<Workspace Version="0.7.6.3982" X="-221.812809869413" Y="-5.92956209863445" zoom="1" Name="Home">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Nodes.CodeBlockNodeModel guid="59e9f9e4-c5ec-4d5f-967e-3e528be427ee" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Population Size" x="516.189297712721" y="85.8802725404232" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="100;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="8c5decf3-4814-4968-ab25-4c9ba9671c38" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Number of Objecctives" x="468.989297712721" y="177.512403833676" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="2;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="9af1d3f3-c357-4832-b68a-2b33287ea615" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Lower Limit" x="380.117264878838" y="275.108040572447" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="-10;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="89e9cd7b-5c04-4e68-a467-ede6a39a53cc" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Upper Limit" x="380.117264878838" y="384.353340498186" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="12;" ShouldFocus="false" />
+    <DSCoreNodesUI.CreateList guid="c3912945-8fa6-4fd1-b8f1-0a37e1666eff" type="DSCoreNodesUI.CreateList" nickname="Lower Limit List" x="495.389297712721" y="275.108040572447" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="1" />
+    <DSCoreNodesUI.CreateList guid="8742f66b-4ac1-45f3-a6a6-4676a5c9bf1f" type="DSCoreNodesUI.CreateList" nickname="Upper Limit List" x="495.389297712721" y="384.353340498186" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="1" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="f9f3e6ca-9c2c-47c1-8ff2-5b6185c48112" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Iteration Number" x="1429.60650037693" y="-56.4752179966405" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="50;" ShouldFocus="false" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="55e49d45-e1de-4468-9e1c-4f97da83af9b" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="2111.83676274733" y="166.938104611163" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="a[1];" ShouldFocus="false" />
+    <DSCore.File.Filename guid="94658349-5d14-406e-900e-9cb5c0c2857a" type="DSCore.File.Filename" nickname="File Path" x="3403.18007919177" y="-298.18951147377" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.String>C:\Users\t_aslm\Desktop\gbXML\MOO SCH.csv</System.String>
+    </DSCore.File.Filename>
+    <Dynamo.Nodes.DSFunction guid="3b37752f-eb4e-4260-aba9-9c9ba3a307e1" type="Dynamo.Nodes.DSFunction" nickname="NSGA_II.InitialSolutionList" x="720.89081489831" y="162.215943587852" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="..\bin\Optimo.dll" function="Optimo.NSGA_II.InitialSolutionList@double,double,double[],double[]" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="7878036e-b3d7-4552-8582-04828e70acba" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="2239.54636524316" y="167.393678075869" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="Point.ByCoordinates(Result[1],Result[2],0);" ShouldFocus="false" />
+    <Dynamo.Nodes.DSFunction guid="c2d1d2e5-cffd-4149-9411-64bea63f9c0a" type="Dynamo.Nodes.DSFunction" nickname="LoopWhile" x="1920.2140248811" y="168.151173487955" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="" function="LoopWhile@var[]..[],_FunctionObject,_FunctionObject" />
+    <DSCoreNodesUI.CreateList guid="fedd48ca-0fa4-4d1f-bef7-cdcf79d5d127" type="DSCoreNodesUI.CreateList" nickname="List.Create" x="1577.16764700278" y="97.1898491987295" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="2" />
+    <Dynamo.Nodes.CodeBlockNodeModel guid="5f37ea29-4a95-4f37-a12e-c30265a96044" type="Dynamo.Nodes.CodeBlockNodeModel" nickname="Code Block" x="1468.01207379934" y="65.3721092234195" isVisible="true" isUpstreamVisible="true" lacing="Disabled" CodeText="1;" ShouldFocus="false" />
+    <Dynamo.Nodes.Function guid="1190a372-3c60-47af-bff0-411a4c3e88b5" type="Dynamo.Nodes.Function" nickname="Loop Completion Check" x="1577.16764700278" y="-57.1628661538393" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="5e700d10-247b-45d4-82d4-2ad32505e598" />
+      <Name value="Loop Completion Check" />
+      <Description value="A function that checcks if the loop is completed" />
+      <Inputs>
+        <Input value="Iteration Number" />
+        <Input value="init" />
+      </Inputs>
+      <Outputs>
+        <Output value="Continue?" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <DSCoreNodesUI.CreateList guid="239fd096-85ac-4e52-9e17-83d01708b636" type="DSCoreNodesUI.CreateList" nickname="List of Fitness Functions" x="720.89081489831" y="533.012988536077" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="2" />
+    <Dynamo.Nodes.DSFunction guid="5c1c1720-537b-4566-b7f9-28b72a1127b8" type="Dynamo.Nodes.DSFunction" nickname="NSGA_II.AssignFitnessFuncResults" x="1324.35981083298" y="164.546205955434" isVisible="true" isUpstreamVisible="true" lacing="Shortest" assembly="..\bin\Optimo.dll" function="Optimo.NSGA_II.AssignFitnessFuncResults@double[][],double[][]" />
+    <DSCoreNodesUI.HigherOrder.ApplyFunction guid="a7b67d8f-2fd1-4092-98a1-ccb75a2790e8" type="DSCoreNodesUI.HigherOrder.ApplyFunction" nickname="Function.Apply" x="1103.9777212429" y="313.256423513006" isVisible="true" isUpstreamVisible="true" lacing="Disabled" inputcount="2" />
+    <Dynamo.Nodes.Function guid="8a6b2b79-783b-4c6f-abf8-faec96407dc2" type="Dynamo.Nodes.Function" nickname="NSGA_II Function" x="1577.16764700278" y="420.007281411348" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="e00acc69-462f-4f07-9992-f0eb2ed4617a" />
+      <Name value="NSGA_II Function" />
+      <Description value="The function that performs the generation for NSGA_II." />
+      <Inputs>
+        <Input value="init" />
+        <Input value="lowerLimits" />
+        <Input value="upperLimits" />
+        <Input value="Fitness Function List" />
+      </Inputs>
+      <Outputs>
+        <Output value="Results" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Function guid="f5915757-406c-4b56-b594-9df1462a318d" type="Dynamo.Nodes.Function" nickname="SCH Fitness Function-1" x="470.589297712721" y="496.867899098155" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="3f327fce-efc2-4068-ae54-c009147d9180" />
+      <Name value="SCH Fitness Function-1" />
+      <Description value="The Fitness Function for Optimo's SCH Example" />
+      <Inputs>
+        <Input value="List" />
+      </Inputs>
+      <Outputs>
+        <Output value="double" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+    <Dynamo.Nodes.Function guid="74d3900c-bd2a-470b-98d0-9415f0007add" type="Dynamo.Nodes.Function" nickname="SCH Fitness Function-2" x="470.589297712721" y="599.348722680565" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <ID value="cd1d9cbf-52d5-4057-9693-30ee09c34cc8" />
+      <Name value="SCH Fitness Function-2" />
+      <Description value="The Fitness Function for Optimo's SCH Example" />
+      <Inputs>
+        <Input value="List" />
+      </Inputs>
+      <Outputs>
+        <Output value="double" />
+      </Outputs>
+    </Dynamo.Nodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Models.ConnectorModel start="59e9f9e4-c5ec-4d5f-967e-3e528be427ee" start_index="0" end="3b37752f-eb4e-4260-aba9-9c9ba3a307e1" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="8c5decf3-4814-4968-ab25-4c9ba9671c38" start_index="0" end="3b37752f-eb4e-4260-aba9-9c9ba3a307e1" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="9af1d3f3-c357-4832-b68a-2b33287ea615" start_index="0" end="c3912945-8fa6-4fd1-b8f1-0a37e1666eff" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="89e9cd7b-5c04-4e68-a467-ede6a39a53cc" start_index="0" end="8742f66b-4ac1-45f3-a6a6-4676a5c9bf1f" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c3912945-8fa6-4fd1-b8f1-0a37e1666eff" start_index="0" end="3b37752f-eb4e-4260-aba9-9c9ba3a307e1" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c3912945-8fa6-4fd1-b8f1-0a37e1666eff" start_index="0" end="8a6b2b79-783b-4c6f-abf8-faec96407dc2" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="8742f66b-4ac1-45f3-a6a6-4676a5c9bf1f" start_index="0" end="3b37752f-eb4e-4260-aba9-9c9ba3a307e1" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="8742f66b-4ac1-45f3-a6a6-4676a5c9bf1f" start_index="0" end="8a6b2b79-783b-4c6f-abf8-faec96407dc2" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="f9f3e6ca-9c2c-47c1-8ff2-5b6185c48112" start_index="0" end="1190a372-3c60-47af-bff0-411a4c3e88b5" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="55e49d45-e1de-4468-9e1c-4f97da83af9b" start_index="0" end="7878036e-b3d7-4552-8582-04828e70acba" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="3b37752f-eb4e-4260-aba9-9c9ba3a307e1" start_index="0" end="5c1c1720-537b-4566-b7f9-28b72a1127b8" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="3b37752f-eb4e-4260-aba9-9c9ba3a307e1" start_index="0" end="a7b67d8f-2fd1-4092-98a1-ccb75a2790e8" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="c2d1d2e5-cffd-4149-9411-64bea63f9c0a" start_index="0" end="55e49d45-e1de-4468-9e1c-4f97da83af9b" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="fedd48ca-0fa4-4d1f-bef7-cdcf79d5d127" start_index="0" end="c2d1d2e5-cffd-4149-9411-64bea63f9c0a" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="5f37ea29-4a95-4f37-a12e-c30265a96044" start_index="0" end="fedd48ca-0fa4-4d1f-bef7-cdcf79d5d127" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="1190a372-3c60-47af-bff0-411a4c3e88b5" start_index="0" end="c2d1d2e5-cffd-4149-9411-64bea63f9c0a" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="239fd096-85ac-4e52-9e17-83d01708b636" start_index="0" end="a7b67d8f-2fd1-4092-98a1-ccb75a2790e8" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="239fd096-85ac-4e52-9e17-83d01708b636" start_index="0" end="8a6b2b79-783b-4c6f-abf8-faec96407dc2" end_index="3" portType="0" />
+    <Dynamo.Models.ConnectorModel start="5c1c1720-537b-4566-b7f9-28b72a1127b8" start_index="0" end="fedd48ca-0fa4-4d1f-bef7-cdcf79d5d127" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="a7b67d8f-2fd1-4092-98a1-ccb75a2790e8" start_index="0" end="5c1c1720-537b-4566-b7f9-28b72a1127b8" end_index="1" portType="0" />
+    <Dynamo.Models.ConnectorModel start="8a6b2b79-783b-4c6f-abf8-faec96407dc2" start_index="0" end="c2d1d2e5-cffd-4149-9411-64bea63f9c0a" end_index="2" portType="0" />
+    <Dynamo.Models.ConnectorModel start="f5915757-406c-4b56-b594-9df1462a318d" start_index="0" end="239fd096-85ac-4e52-9e17-83d01708b636" end_index="0" portType="0" />
+    <Dynamo.Models.ConnectorModel start="74d3900c-bd2a-470b-98d0-9415f0007add" start_index="0" end="239fd096-85ac-4e52-9e17-83d01708b636" end_index="1" portType="0" />
+  </Connectors>
+  <Notes>
+    <Dynamo.Models.NoteModel text="Saves the results to a CSV file." x="3595.71398047387" y="-340.360755763819" />
+    <Dynamo.Models.NoteModel text="Visulizes the Pareto Optimal Set" x="3875.87968581066" y="-127.355860122882" />
+    <Dynamo.Models.NoteModel text="Read more about Optimo and how to use it on https://github.com/BPOpt/Optimo" x="400.06609404147" y="23.8792265204119" />
+  </Notes>
+</Workspace>
