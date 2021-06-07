@@ -12,148 +12,160 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 - Tutoriais
 
-[Barcelona pavilion - Yorik van Havre](https://www.youtube.com/playlist?list=PLmKdGVtV5VnuE5U75CEORkjlVK_nzQQUh) - 1/17
+1 - [Barcelona pavilion - Yorik van Havre](https://www.youtube.com/playlist?list=PLmKdGVtV5VnuE5U75CEORkjlVK_nzQQUh) - 1/17
 
-[BIM with FreeCAD - Yorik van Havre](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU) - 1/27
+2 - [BIM with FreeCAD - Yorik van Havre](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU) - 1/27
 
-[Complete house project tutorial for architect 'from zero to hero' using freeCAD - freeCAD for Architecture](https://www.youtube.com/watch?v=RcX0-IArnzo&list=PLwA6cJhCSx1M8BGm9eZ_hZFvz48u8YCFl) - 1/22
+3 - [Complete house project tutorial for architect 'from zero to hero' using freeCAD - freeCAD for Architecture](https://www.youtube.com/watch?v=RcX0-IArnzo&list=PLwA6cJhCSx1M8BGm9eZ_hZFvz48u8YCFl) - 1/22
 
-[Tips and trick for better and fastest workflow in freeCAD - freeCAD for Architecture](https://www.youtube.com/playlist?list=PLwA6cJhCSx1P1erikDHTa6C9t2CweQaz-) 1/8
+4 - [Tips and trick for better and fastest workflow in freeCAD - freeCAD for Architecture](https://www.youtube.com/playlist?list=PLwA6cJhCSx1P1erikDHTa6C9t2CweQaz-) 1/8
 
-[UH Studio Design Academy](https://www.youtube.com/watch?v=9EzxiwjKzTQ&list=PLJThqQUeIsPTw-SQeY595Kpz_xQeZxz4o) - 1/7
+5 - [UH Studio Design Academy](https://www.youtube.com/watch?v=9EzxiwjKzTQ&list=PLJThqQUeIsPTw-SQeY595Kpz_xQeZxz4o) - 1/7
 
-[FreeCad - Rafael García Rodríguez](PLvDOxR8gzkX_3LtuEKBIoNLFFgJK_AXkE) - 1/17
+6 - [FreeCad - Rafael García Rodríguez](PLvDOxR8gzkX_3LtuEKBIoNLFFgJK_AXkE) - 1/17
 
-[FreeCAD Lessons for Beginners - Learn FreeCAD](https://www.youtube.com/playlist?list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) - 1/13
+7 - [FreeCAD Lessons for Beginners - Learn FreeCAD](https://www.youtube.com/playlist?list=PL6fZ68Cq3L8k0JhxnIVjZQN26cn9idJrj) - 1/13
 
-[Curso de Desenho Técnico FreeCAD](https://www.youtube.com/watch?v=Y_6Q41OtIQQ&list=PLCQQLujpF4hUJrabtQ_a68gS3nflFC-nd&index=1&pbjreload=1010) - 1/7
+8 - [Curso de Desenho Técnico FreeCAD](https://www.youtube.com/watch?v=Y_6Q41OtIQQ&list=PLCQQLujpF4hUJrabtQ_a68gS3nflFC-nd&index=1&pbjreload=1010) - 1/7
 
-[TechDraw for BIM in FreeCAD](https://www.youtube.com/watch?list=PL1Fv0Kg44dc1fTRpW9E__ELz2xFSDm9g7&v=x3lbAOyzQMI&feature=emb_title) - 1/11
+9 - [TechDraw for BIM in FreeCAD](https://www.youtube.com/watch?list=PL1Fv0Kg44dc1fTRpW9E__ELz2xFSDm9g7&v=x3lbAOyzQMI&feature=emb_title) - 1/11
+
+10 - [FreeCAD UH Studio](https://www.youtube.com/watch?v=9EzxiwjKzTQ&list=PLJThqQUeIsPTw-SQeY595Kpz_xQeZxz4o) - 1/7
+
+11 - [FreeCAD CNC series](https://www.youtube.com/watch?v=TqenXfqva5c&list=PLv0-xtVevCmdZQWHQgTcFnqIv_zEr77LO)
+
+12 - [Modelo técnico Construtora htw saar](https://github.com/renatogcruz/BIM-Modeling/tree/master/freecad/Modelo_tecnico_com_FreeCAD_construtora_htw_saar) - Video [1](https://www.youtube.com/watch?v=Qe-vXRtKql4) e [2](https://www.youtube.com/watch?v=iarSNPBKkfo)
 
 - Tutoriais Freecad + Python
 
-[Python scripting tutorial](https://www.freecadweb.org/wiki/index.php?title=Introduction_to_Python) - forum freecadweb
+1 - [Python scripting tutorial](https://www.freecadweb.org/wiki/index.php?title=Introduction_to_Python) - forum freecadweb
 
-[Scripting examples](https://www.freecadweb.org/wiki/index.php?title=Scripting_examples) - forum freecadweb
+2 - [Scripting examples](https://www.freecadweb.org/wiki/index.php?title=Scripting_examples) - forum freecadweb
 
 - Freecad + Dynamo
 
-[DynFreeCAD](https://github.com/infeeeee/DynFreeCAD)
+1 - [DynFreeCAD](https://github.com/infeeeee/DynFreeCAD)
 
 ## [BLENDER BIM](https://blenderbim.org/)
 
 - Tutoriais
 
-[BlenderBIM beginners tutorial: my first BIM project](https://blenderbim.org/blenderbim-tutorial.html) - 1/1
+1 - [BlenderBIM Add-on](https://www.youtube.com/playlist?list=PLgAKO-tNTLzZOCpCthvrnw877S893nF-b) - 1/18
 
-[Breve introdução ao Blender Bim](https://github.com/renatogcruz/BIM-Modeling/tree/master/blender_bim/breve-introducao-blender-bim)
+2 - [BlenderBIM beginners tutorial: my first BIM project](https://blenderbim.org/blenderbim-tutorial.html) - 1/1
+
+3 - [Breve introdução ao Blender Bim](https://github.com/renatogcruz/BIM-Modeling/tree/master/blender_bim/breve-introducao-blender-bim)
 
 Link [Youtube](https://www.youtube.com/watch?v=AH4o5CzBV5Y) - 1/1
+
+4 - [Tópicos de Open BIM - BlenderBIM Add On]()
+
+5 - Link [YouTube](https://www.youtube.com/watch?v=fKIuYu0-hVk) - 1/1
+
+6 - [Intro to Blender for Architectural Design](https://www.youtube.com/watch?v=FCrqygFtTp8&list=PLJThqQUeIsPT2yzXVM1JAvAEYE6LZx264) - 1/6
+
+7 - [Topologise Blender add-on](https://www.youtube.com/channel/UC0WejI42NbQz3SqNfmdORIQ)
 
 ## [SVERCHOK](https://github.com/nortikin/sverchok/)
 
 - Tutoriais
 
-[Sverchok](https://www.youtube.com/watch?v=H_CG7CVmjog&list=PLVm7O9OzjT6Gacl6Ag1JAySU2tXMUGGMp) - 1/3
+1 - [Sverchok](https://www.youtube.com/watch?v=H_CG7CVmjog&list=PLVm7O9OzjT6Gacl6Ag1JAySU2tXMUGGMp) - 1/3
 
 
 ## [REVIT](https://www.autodesk.com/products/revit/overview)
 
 - Tutoriais
 
-[Revit: Viabilidade e Estudo Preliminar de Complexo Multiuso - Roberta Vendramini](https://www.youtube.com/playlist?list=PL9t0ZaF1phAV3UH9aZofSmkT5cDY24tPr) - 1/105
+1 - [Revit: Viabilidade e Estudo Preliminar de Complexo Multiuso - Roberta Vendramini](https://www.youtube.com/playlist?list=PL9t0ZaF1phAV3UH9aZofSmkT5cDY24tPr) - 1/105
 
-[Revit 2017: Modelagem de Edifício Residencial + Planta Humanizada - Roberta Vendramini](https://www.youtube.com/playlist?list=PL9t0ZaF1phAW-p-J4vXmFNjb2dXmeTz8P) - 1/181
+2 - [Revit 2017: Modelagem de Edifício Residencial + Planta Humanizada - Roberta Vendramini](https://www.youtube.com/playlist?list=PL9t0ZaF1phAW-p-J4vXmFNjb2dXmeTz8P) - 1/181
 
-[Autodesk Revit Structure Intermediário](https://engenhabim.com/curso/autodesk-revit-structure-2016/) - 1/18
+3 - [Autodesk Revit Structure Intermediário](https://engenhabim.com/curso/autodesk-revit-structure-2016/) - 1/18
 
-[Criação de Famílias para Revit](https://engenhabim.com/curso/criacao-de-familias/) - 1/28
+4 - [Criação de Famílias para Revit](https://engenhabim.com/curso/criacao-de-familias/) - 1/28
 
-[Revit MEP 2020 Básico: Projeto Elétrico de Residência Popular](https://cursosconstruir.com.br/curso/revit-mep-basico-projeto-eletrico/) - 1/23
+5 - [Revit MEP 2020 Básico: Projeto Elétrico de Residência Popular](https://cursosconstruir.com.br/curso/revit-mep-basico-projeto-eletrico/) - 1/23
 
-[Revit MEP 2019 Básico: Projeto Hidrossanitário de Residência Popular](https://cursosconstruir.com.br/curso/revit-mep-basico-projeto-hidrossanitario/) - 1/26
+6 - [Revit MEP 2019 Básico: Projeto Hidrossanitário de Residência Popular](https://cursosconstruir.com.br/curso/revit-mep-basico-projeto-hidrossanitario/) - 1/26
 
-[Revit Alvenaria Estrutural](https://engenhabim.com/home/) - 1/70
+7 - [Revit Alvenaria Estrutural](https://engenhabim.com/home/) - 1/70
 
 - Tutoriais Revit + Python
 
-[Python For Beginners](https://www.youtube.com/watch?v=ZGTjadgZB3A&list=PLpH7oSFnuC2rR1jnNmKD-5Z0HZ2aq2hiD) - 1 / 3
+1 - [Python For Beginners](https://www.youtube.com/watch?v=ZGTjadgZB3A&list=PLpH7oSFnuC2rR1jnNmKD-5Z0HZ2aq2hiD) - 1 / 3
 
-[Python for Revit Course - pyRevit](https://www.youtube.com/playlist?list=PLc_1PNcpnV5742XyF8z7xyL9OF8XJNYnv) - 1/9
+2 - [Python for Revit Course - pyRevit](https://www.youtube.com/playlist?list=PLc_1PNcpnV5742XyF8z7xyL9OF8XJNYnv) - 1/9
 
-[Python nodes](https://primer.dynamobim.org/10_Custom-Nodes/10-4_Python.html)
+3 - [Python nodes](https://primer.dynamobim.org/10_Custom-Nodes/10-4_Python.html)
 
 - Tutorial Revit PDF
 
-[Manual Avanzado de Revit](https://www.espaciobim.com/recursos-gratis) - 1816 páginas
+1 - [Manual Avanzado de Revit](https://www.espaciobim.com/recursos-gratis) - 1816 páginas
 
-[API docs Revit](https://apidocs.co/apps/revit/2020/d4648875-d41a-783b-d5f4-638df39ee413.htm)
+2 - [API docs Revit](https://apidocs.co/apps/revit/2020/d4648875-d41a-783b-d5f4-638df39ee413.htm)
 
 ## [TEKLA BIM](https://www.tekla.com/us/tekla-structures-steel-evaluation)
 
-[Tekla BIM - Estruturas Metálicas](https://github.com/renatogcruz/BIM-Modeling/tree/master/tekla/Estrutura_metalica/Modelo_estruturas_metalicas_BIM) - 1/15
+1 - [Tekla BIM - Estruturas Metálicas](https://github.com/renatogcruz/BIM-Modeling/tree/master/tekla/Estrutura_metalica/Modelo_estruturas_metalicas_BIM) - 1/15
 
-[Modelagem e Detalhamento com Tekla Structures](https://github.com/renatogcruz/BIM-Modeling/tree/master/tekla/modelagem_e_detalhamento_estrutura_em_a%C3%A7o/Projero_metalico) - 1/17
+2 - [Modelagem e Detalhamento com Tekla Structures](https://github.com/renatogcruz/BIM-Modeling/tree/master/tekla/modelagem_e_detalhamento_estrutura_em_a%C3%A7o/Projero_metalico) - 1/17
 
 Link [curso](https://www.youtube.com/watch?v=ebeZTfWZWAU&list=PL8rA-u5AJ10-F3QMTraF0VxKYbxixOWNo)
 
-[Trabalhando com modelos IFC no Tekla Structures](https://www.youtube.com/watch?v=z-0t6RVnH7s)
+3 - [Trabalhando com modelos IFC no Tekla Structures](https://www.youtube.com/watch?v=z-0t6RVnH7s)
 
 
 ## [IFC BUILDER](http://ifc-builder.en.cype.com/)
 
 - Tutoriais
 
-[Introdução ao Open BIM com IFC Builder](https://www.udemy.com/course/openbim-ifcbuilder/) - 1/23
+1 - [Introdução ao Open BIM com IFC Builder](https://www.udemy.com/course/openbim-ifcbuilder/) - 1/23
 
-[OpenBIM Covid19](https://www.udemy.com/course/openbim-covid19/) - 1/24
+2 - [OpenBIM Covid19](https://www.udemy.com/course/openbim-covid19/) - 1/24
 
 
 ## [DYNAMO BIM](https://dynamobim.org/)
 
 - Tutoriais
 
-[Checagem de áreas de janelas em função das áreas dos ambientes](https://knowledge.autodesk.com/pt-br/support/revit-products/learn-explore/caas/simplecontent/content/checagem-de--C3-A1reas-de-janelas-em-fun-C3-A7-C3-A3o-das--C3-A1reas-dos-ambientes-com-o-dynamo.html?fbclid=IwAR1c1EpfLA6GxJtN79P4g3Zce-IS6kIgiT26VwYQFp_XVRPGTFYUr7M_42w) - 1/1
+1 - [Checagem de áreas de janelas em função das áreas dos ambientes](https://knowledge.autodesk.com/pt-br/support/revit-products/learn-explore/caas/simplecontent/content/checagem-de--C3-A1reas-de-janelas-em-fun-C3-A7-C3-A3o-das--C3-A1reas-dos-ambientes-com-o-dynamo.html?fbclid=IwAR1c1EpfLA6GxJtN79P4g3Zce-IS6kIgiT26VwYQFp_XVRPGTFYUr7M_42w) - 1/1
 
-[Dynamo Basics Training](https://www.youtube.com/watch?v=8DAsh04sR4c&list=PLdGxhdaseXECO1hxio7vvE-y1Ud7qbW_n) - 1/8
+2 - [Dynamo Basics Training](https://www.youtube.com/watch?v=8DAsh04sR4c&list=PLdGxhdaseXECO1hxio7vvE-y1Ud7qbW_n) - 1/8
 
-[Dynamo Advanced Course I](https://www.youtube.com/watch?v=oo-aqVVR6Zo&list=PLdGxhdaseXEBRnKWRk7-Tas6dxp65q9bk) - 1/5
+3 - [Dynamo Advanced Course I](https://www.youtube.com/watch?v=oo-aqVVR6Zo&list=PLdGxhdaseXEBRnKWRk7-Tas6dxp65q9bk) - 1/5
 
-[The Dynamo Dictionary](https://dictionary.dynamobim.com/2/#/)
+4 - [The Dynamo Dictionary](https://dictionary.dynamobim.com/2/#/)
 
-[Dynamo Package Manager](https://dynamopackages.com/)
-
-## Revit plugins
-
-[Revit plugins](https://www.youtube.com/watch?v=ly-rkEs2TRE&list=PLdGxhdaseXEAEawca6yz8s1BHR2Iu2pHN) - 1/26
+5 - [Dynamo Package Manager](https://dynamopackages.com/)
 
 - Tutoriais Dynamo + Python
 
-## FERRAMENTA DE OTIMIZAÇÃO PARA BIM
+##### Ferramenta de otimização para Dynamo/Revit
 
-1. [Optimo](https://github.com/renatogcruz/Evolutionary-computing/tree/master/optimo_optimization_revit)
+1 - [Optimo]()
 
-O Optimo é uma ferramenta de otimização multiobjetivos BPOpt (*Performance Optimization*) baseada em BIM para Dynamo. O Optimo foi desenvolvido com base no código-fonte aberto jmetal.NET, criado originalmente por Antonio J. Nebro.
+O Optimo é uma ferramenta de otimização multiobjetivos BPOpt (*Performance Optimization*) baseada em BIM para Dynamo. O Optimo foi desenvolvido com base no código-fonte aberto jmetal.NET, criado originalmente por [Antonio J. Nebro](https://github.com/mrahmaniasl/Optimo).
 
 ## FERRAMENTA BIM PARA INTERFACE GRASSHOPPER x REVIT
 
-1. [VisualArq](https://www.visualarq.com/es/download/)
+1 - [VisualArq](https://www.visualarq.com/es/download/)
 
-2. [Rhino.Inside](https://www.rhino3d.com/inside)
+2 - [Rhino.Inside](https://www.rhino3d.com/inside)
 
 O Rhino.Inside é um projeto de código aberto que permite que arquivos Rhino/Grasshopper sejam executados em outros aplicativos como, por exemplo, Revit.
 
 ## PROGRAMAÇÃO COMPUTACIONAL NA METODOLOGIA BIM
 
-1. [Uso da Programação Computacional na Metodologia BIM](https://www.etlipse.com/downloads) - etlipse
+1 - [Uso da Programação Computacional na Metodologia BIM](https://www.etlipse.com/downloads) - etlipse
 
-2. [Programação Básica de um Add-In para Revit](https://www.etlipse.com/downloads) - etlipse
+2 - [Programação Básica de um Add-In para Revit](https://www.etlipse.com/downloads) - etlipse
 
 ## Modelo Open Source BIM
 
 Este tópico será dedicado a modelo abertos
 
-[OpeningDesign's Open Source Revit Template](https://community.osarch.org/discussion/349/openingdesigns-open-source-revit-template/)
+1 - [OpeningDesign's Open Source Revit Template](https://community.osarch.org/discussion/349/openingdesigns-open-source-revit-template/)
 
 
 ## FERRAMENTAS OPEN SOURCE PARA BIM
