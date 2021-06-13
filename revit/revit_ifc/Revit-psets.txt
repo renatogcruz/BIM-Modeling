@@ -1,0 +1,32 @@
+#
+# User Defined PropertySet Definition File
+#
+# Format:
+#    PropertySet:   <Pset Name> I[nstance]/T[ype]   <element list separated by ','>
+#   <Property Name 1>   <Data type> <[opt] Revit parameter name, if different from IFC>
+#   <Property Name 2>   <Data type> <[opt] Revit parameter name, if different from IFC>
+#   ...
+#
+# Data types supported: Area, Boolean, ClassificationReference, ColorTemperature, Count, Currency, 
+#   ElectricalCurrent, ElectricalEfficacy, ElectricalVoltage, Force, Frequency, Identifier, 
+#   Illuminance, Integer, Label, Length, Logical, LuminousFlux, LuminousIntensity, 
+#   NormalisedRatio, PlaneAngle, PositiveLength, PositivePlaneAngle, PositiveRatio, Power, 
+#   Pressure, Ratio, Real, Text, ThermalTransmittance, ThermodynamicTemperature, Volume, 
+#   VolumetricFlowRate
+# 
+PropertySet:	EPset_ProjectedCRS	I	IfcSite
+	Name	Text	EPset_ProjectedCRS.Name
+	Description	Text	EPset_ProjectedCRS.Description
+	GeodeticDatum	Text	EPset_ProjectedCRS.GeodeticDatum
+	VerticalDatum	Text	EPset_ProjectedCRS.VerticalDatum
+	MapProjection	Text	EPset_ProjectedCRS.MapProjection
+	MapZone	Text	EPset_ProjectedCRS.MapZone
+	MapUnit	Text	EPset_ProjectedCRS.MapUnit
+
+PropertySet:	EPset_MapConversion	I	IfcSite
+	Eastings	Real	EPset_MapConversion.Eastings
+	Northings	Real	EPset_MapConversion.Northings
+	OrthogonalHeight	Real	EPset_MapConversion.OrthogonalHeight
+	XAxisAbscissa	Real	EPset_MapConversion.XAxisAbscissa
+	XAxisOrdinate	Real	EPset_MapConversion.XAxisOrdinate
+	Scale	Real	EPset_MapConversion.Scale
