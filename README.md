@@ -10,6 +10,10 @@ Modelagem 3D/BIM utilizando software Autodesk Revit e Freecad (open source).
 
 ## [FREECAD](https://www.freecadweb.org/)
 
+- Biblioteca
+
+1 - [FreeCAD library](https://github.com/FreeCAD/FreeCAD-library)
+
 - Tutoriais
 
 1 - [Barcelona pavilion - Yorik van Havre](https://www.youtube.com/playlist?list=PLmKdGVtV5VnuE5U75CEORkjlVK_nzQQUh) - 1/17
